@@ -1,0 +1,462 @@
+/*
+Sparkbox Apprentice Page
+written for - www.seesparkbox.com
+Version 2 is based on a 240px width instead of 400px
+*/
+
+/*
+Contents
+1. Resets & Overrides
+2. Header
+3. Information
+4. Versions
+5. Social Links
+6. Footer
+7. Media Queries
+*/
+
+/* 1. Resets & Overrides */
+
+* {
+    padding:0;
+    margin:0;
+}
+html, body {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: normal;
+}
+
+/* end */
+
+/* Header */
+
+header {
+    background-color: rgb(205, 245, 220);
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    padding: 2em 0 4em 0;
+}
+
+.logo img {
+    width: 30%;
+    height: 100%;
+    margin: 1em;
+}
+
+h1.page-title {
+    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.3em;
+    line-height: 80%;
+    text-align: center;
+    margin: 0.2em auto 0.2em auto;
+    padding-bottom: 0.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.slogan {
+    font-family: 'Bodoni W01 Book 709611', 'Times New Roman';
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+    margin-top: 1em 0 1em 0;
+}
+
+.slogan li {
+    padding: 20px;
+}
+
+.hr {
+    position: relative;
+}
+
+.hr:before {
+    border: 0;
+    width: 5%;
+    height: 1px;
+    background: #333;
+    position: absolute;
+    top: 4.5em;
+    left: 50%;
+    margin-left:-3%;
+    content: "";
+}
+
+/* end */
+
+/* 3. Information */
+
+p.info-description {
+    font-family:"Bodoni W01 Bold Italic 709608", 'Times New Roman';
+    font-size: 1.3em;
+    text-align: center;
+    width: 33em;
+    margin-top: 2em;
+}
+
+section.info {
+    background-color: rgb(255, 255, 255); /* check for fall back color hex code */
+}
+
+.info h1 {
+    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    margin: 0.75em auto 0.5em auto;
+    letter-spacing: .075em;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+.info a:hover {
+    color: #000;
+}
+
+section p {
+    font-family:"Bodoni W01 Book 709611";
+    margin: 1em;
+    text-align: left;
+}
+
+section > a {
+    background-color: #000;
+    color: #FFF;
+    font-family: "Bodoni W01 Bold Italic 709608", 'Times New Roman';
+    text-decoration: none;
+    padding: 1.2em 2.1em;
+    display: block;
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 0.3em;
+}
+
+section > a:hover {
+    background-color: #787878;
+}
+
+/* end */
+
+/* 4. Versions */
+
+section {
+    width: 100%;
+    margin: 2em auto 4em auto;
+}
+
+.version {
+    margin-bottom: -0.3em;
+}
+
+.version-heading {
+    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    letter-spacing: .075em;
+    display: block;
+    padding: 1em 0 1em;
+}
+
+.version-number {
+    color: #FFF;
+    font-family: 'Knockout 94 A', 'Knockout 94 B', 'Arial', 'Sans-Serif';
+    font-weight: 400;
+    font-size: 3em;
+    font-style: normal;
+    display: block;
+    margin: -0.3em auto -0.5em;
+}
+
+.version-current {
+    font-family:"Bodoni W01 Bold Italic 709608";
+    font-weight: normal;
+    font-size: 2.2em;
+    margin-top: -1.85em;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.grouped-container {
+    max-width: 65em;
+    margin: 0 auto;
+}
+
+.version-profile-wrapper:after {
+    content: "";
+    height: 3px;
+    background-color: #FFF;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: -0.4em;
+}
+
+.version-profile-name {
+    font-family: 'Knockout 94 A', 'Knockout 94 B';
+    font-weight: 400;
+    font-size: 2em;
+    padding-top: 0.4em;
+    position: relative;
+    margin: 0;
+}
+
+.version-project {
+    font-family:"Bodoni W01 Book 709611";
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 3em 0 1em 0;
+}
+
+.version-project-titles {
+    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1em;
+    padding: 0.5em 0 1em 0;
+    margin: 0;
+    letter-spacing: .03em;
+}
+
+.version-job {
+    font-family:"Bodoni W01 Bold Italic 709608";
+    font-size: 1em;
+    text-align: center;
+}
+
+.version-job a {
+    color: #000;
+}
+
+.version-3 {
+    background-color: rgb(248, 240, 180);
+}
+
+.version-2 {
+    background-color: rgb(250, 200, 161);
+}
+
+.version-1 {
+    background-color: rgb(199, 225, 233);
+    padding-bottom: 1em;
+}
+
+.content-container {
+    display:inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 3em;
+}
+
+/* end */
+
+/* 5. Social Links */
+
+.version-profile-social--links-list {
+    padding: 0;
+    margin: 0;
+}
+.version-profile-social--links-item {
+    display: inline-block;
+    margin: 0.8em 0.3em;
+}
+
+.version-profile-social--links-item i {
+    color: #000;
+    background-color: #FFF;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.version-profile-social--links-item i:hover {
+    color: #FFF;
+    background-color: #000;
+}
+
+/* 6. Footer */
+
+footer a:hover {
+    color: #000;
+}
+
+footer > a {
+    background-color: #000;
+    color: #FFF;
+    font-family: "Bodoni W01 Bold Italic 709608", 'Times New Roman';
+    text-decoration: none;
+    padding: 1.2em 2.1em;
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 0.3em;
+}
+
+footer > a:hover {
+    background-color: #787878;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 25px 50px;
+}
+
+footer p {
+    font-family:"Bodoni W01 Book 709611";
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 1em;
+}
+
+footer > .logo img {
+    width: 50px;
+    height: 50px;
+    margin-top: 1em;
+}
+
+/* end */
+
+/* 7. Media Queries */
+
+@media (min-width: 289px) {
+    .logo img {
+        width: 6.750em;
+    }
+
+    h1.page-title {
+        font-size: 4.8em;
+    }
+}
+
+@media (min-width: 342px) {
+    .hr:before {
+        width: 3%;
+        top: 3.5em;
+        position: absolute;
+        margin-left:-1%;
+    }
+}
+
+@media (min-width: 360px) {
+    h1.page-title {
+        font-size: 6.8em;
+    }
+    section > a {
+        width: 160px;
+    }
+    footer > a {
+        width: 160px;
+    }
+}
+
+
+@media (min-width: 515px) {
+    h1.page-title {
+        width: 70%;
+    }
+    .hr:before {
+        width: 2.25%;
+        top: 3.5em;
+        position: absolute;
+        margin-left: -1.75%;
+    }
+    .info-description {
+        text-align: center;
+    }
+    section p {
+        width: 35em;
+        margin: 0 auto;
+        padding: 1em 0;
+        text-align: left;
+        line-height: 1.5em;
+    }
+    .version-job {
+        width: 100%;
+    }
+    
+    .version-job:nth-of-type(6) {
+        width: 63%;
+    }
+    .version-number {
+        font-size: 4em;
+    }
+    .version-current {
+        margin-top: -2em;
+    }
+}
+
+@media (min-width: 586px) {
+    h1.page-title {
+        width: 68%;
+}
+
+@media (min-width: 957px) {
+    h1.page-title {
+        font-size: 9.8em;
+    }
+    .content-container {
+        width: 33%;
+    }
+    .version-number {
+        font-size: 9em;
+    }
+
+    .version-current {
+        font-size: 4.2em;
+        margin-top: -1.4em;
+    }
+}
+
+@media (min-width: 1110px) {
+    h1.page-title {
+        font-size: 10.8em;
+    }
+}
+
+@media (min-width: 1420px) {
+    h1.page-title {
+        min-width: 46%;
+        font-size: 10.8em;
+    }
+}
+
+@media (min-width: 1600px) {
+    h1.page-title {
+        min-width: 46%;
+        font-size: 13.8em;
+    }
+}
+
+/* end */
