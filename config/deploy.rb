@@ -45,7 +45,7 @@ task :deploy => :environment do
     # instance of your project.
     invoke 'git:clone'
     invoke 'deploy:link_shared_paths'
-
+    invoke 'deploy:cleanup'
     to :launch do
     end
   end
