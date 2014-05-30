@@ -13,6 +13,7 @@ set :deploy_to, '/var/www/html/apprentices-flores.sparkboxqa.com'
 set :repository, 'git@github.com:sparkbox/apprentices-page.git'
 set :branch, 'master'
 set :ssh_options, '-A'
+set :shared_paths, %w[ .htaccess ]
 # Manually create these paths in shared/ (eg: shared/config/database.yml) in your server.
 # They will be linked in the 'deploy:link_shared_paths' step.
 
@@ -42,7 +43,8 @@ task :deploy => :environment do
   deploy do
     # Put things that will set up an empty directory into a fully set-up
     # instance of your project.
-    invoke :'git:clone'
+    invoke 'git:clone'
+    invoke 'deploy:link_shared_paths'
 
     to :launch do
     end
