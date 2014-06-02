@@ -220,6 +220,11 @@ section {
     margin-top: -0.4em;
 }
 
+.version-profile {
+    height: 250px;
+    width: 250px;
+}
+
 .version-profile-name {
     font-family: 'Knockout 94 A', 'Knockout 94 B';
     font-weight: 400;
