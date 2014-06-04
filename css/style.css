@@ -1,20 +1,3 @@
-/*
-Sparkbox Apprentice Page
-written for - www.seesparkbox.com
-Version 2 is based on a 240px width instead of 400px
-*/
-
-/*
-Contents
-1. Resets & Overrides
-2. Header
-3. Information
-4. Versions
-5. Social Links
-6. Footer
-7. Media Queries
-*/
-
 /* 1. Resets & Overrides */
 
 * {
@@ -37,7 +20,7 @@ h1 {
 
 a {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 strong {
@@ -52,27 +35,23 @@ header {
     background-color: rgb(205, 245, 220);
     width: 100%;
     height: 100%;
+    padding: 2em 0;
 }
 
-.head {
-    padding: 2em 0 4em 0;
-}
-
-.logo img {
-    width: 30%;
+.logo {
+    width: 22%;
     height: 100%;
     margin: 1em;
 }
 
-h1.page-title {
+.page-title {
     font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
     font-weight: 400;
     font-style: normal;
-    font-size: 4.3em;
+    font-size: 3.3em;
     line-height: 80%;
     text-align: center;
-    margin: 0.2em auto 0.2em auto;
-    padding-bottom: 0.2em;
+    margin: 0.2em auto;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
@@ -93,7 +72,6 @@ h1.page-title {
 }
 
 .hr:before {
-    border: 0;
     width: 5%;
     height: 1px;
     background: #333;
@@ -108,19 +86,18 @@ h1.page-title {
 
 /* 3. Information */
 
-p.info-description {
+.info-primary {
     font-family:"Bodoni W01 Bold Italic 709608", 'Times New Roman';
     font-size: 1.3em;
     text-align: center;
-    width: 33em;
-    margin-top: 2em;
+    margin: 2em 2em;
 }
 
-section.info {
+.info {
     background-color: rgb(255, 255, 255); /* check for fall back color hex code */
 }
 
-.info h1 {
+.info-header {
     font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
     font-weight: 400;
     font-style: normal;
@@ -130,21 +107,13 @@ section.info {
     letter-spacing: .075em;
 }
 
-p a {
-    text-decoration: underline;
-}
-
-.info a:hover {
-    color: #000;
-}
-
-section p {
+.info-secondary {
     font-family:"Bodoni W01 Book 709611";
-    margin: 1em;
     text-align: left;
+    margin: 2em;
 }
 
-section > a {
+.info a {
     background-color: #000;
     color: #FFF;
     font-family: "Bodoni W01 Bold Italic 709608", 'Times New Roman';
@@ -156,21 +125,18 @@ section > a {
     border-radius: 0.3em;
 }
 
-section > a:hover {
+.info a:hover {
+    color: #000;
     background-color: #787878;
 }
 
 /* end */
 
-/* 4. Versions */
+/* 4. Version */
 
 section {
     width: 100%;
     margin: 2em auto 4em auto;
-}
-
-.version {
-    margin-bottom: -0.3em;
 }
 
 .version-heading {
@@ -204,12 +170,12 @@ section {
     letter-spacing: 0.05em;
 }
 
-.grouped-container {
+.version--container {
     max-width: 65em;
     margin: 0 auto;
 }
 
-.version-profile-wrapper:after {
+.version-profile--image-wrapper:after {
     content: "";
     height: 3px;
     background-color: #FFF;
@@ -220,12 +186,12 @@ section {
     margin-top: -0.4em;
 }
 
-.version-profile {
+.version-profile--image {
     height: 250px;
     width: 250px;
 }
 
-.version-profile-name {
+.version-profile--name {
     font-family: 'Knockout 94 A', 'Knockout 94 B';
     font-weight: 400;
     font-size: 2em;
@@ -234,14 +200,14 @@ section {
     margin: 0;
 }
 
-.version-project {
+.version-project--heading {
     font-family:"Bodoni W01 Book 709611";
     text-transform: uppercase;
     letter-spacing: 0.15em;
     padding: 3em 0 1em 0;
 }
 
-.version-project-titles {
+.version-project--titles {
     font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
     font-weight: 400;
     font-style: normal;
@@ -255,14 +221,10 @@ section {
     letter-spacing: .03em;
 }
 
-.version-job {
+.version-profile--info {
     font-family:"Bodoni W01 Bold Italic 709608";
     font-size: 1em;
-    text-align: center;
-}
-
-.version-job a {
-    color: #000;
+    margin: 1em 0 .5em 0;
 }
 
 .version-3 {
@@ -278,7 +240,7 @@ section {
     padding-bottom: 1em;
 }
 
-.content-container {
+.version-profile {
     display:inline-block;
     vertical-align: top;
     width: 100%;
@@ -289,23 +251,23 @@ section {
 
 /* 5. Social Links */
 
-.version-profile-social--links-list {
+.version-profile--social-links-list {
     padding: 0;
     margin: 0;
 }
-.version-profile-social--links-item {
+.version-profile--social-links-item {
     display: inline-block;
     margin: 0.8em 0.3em;
 }
 
-.version-profile-social--links-item i {
+.version-profile--social-links-item i {
     color: #000;
     background-color: #FFF;
     border-radius: 50%;
     text-decoration: none;
 }
 
-.version-profile-social--links-item i:hover {
+.version-profile--social-links-item i:hover {
     color: #FFF;
     background-color: #000;
 }
@@ -334,7 +296,6 @@ footer > a:hover {
 
 footer {
     background-color: rgb(255, 255, 255);
-    padding: 25px 50px;
 }
 
 footer p {
@@ -342,43 +303,34 @@ footer p {
     font-size: 0.75em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    padding-bottom: 4em;
     margin: 1em;
 }
 
-footer > .logo img {
-    width: 50px;
-    height: 50px;
-    margin-top: 1em;
+.logo-footer {
+    width: 10%;
+    height: 100%;
+    margin: 1em;
 }
 
 /* end */
 
 /* 7. Media Queries */
 
-@media (min-width: 289px) {
-    .logo img {
-        width: 6.750em;
-    }
-
-    h1.page-title {
-        font-size: 4.8em;
-    }
-}
-
 @media (min-width: 342px) {
+    .page-title {
+        font-size:4.3em;
+    }
     .hr:before {
         width: 3%;
         top: 3.5em;
         position: absolute;
         margin-left:-1%;
     }
-}
-
-@media (min-width: 360px) {
-    h1.page-title {
-        font-size: 6.8em;
+    .version-number {
+        font-size: 4em;
     }
-    section > a {
+    .info a {
         width: 160px;
     }
     footer > a {
@@ -386,10 +338,12 @@ footer > .logo img {
     }
 }
 
-
-@media (min-width: 515px) {
-    h1.page-title {
-        width: 70%;
+@media (min-width: 505px) {
+    .logo {
+        width: 20%;
+    }
+    .page-title {
+        font-size: 5.3em;
     }
     .hr:before {
         width: 2.25%;
@@ -397,41 +351,48 @@ footer > .logo img {
         position: absolute;
         margin-left: -1.75%;
     }
-    .info-description {
-        text-align: center;
+}
+
+@media (min-width: 621px) {
+    .page-title {
+        font-size: 7.3em;
     }
-    section p {
-        width: 35em;
+    .logo {
+        width: 8em;
+    }
+    .version-number {
+        font-size: 6em;
+    }
+    .version-current {
+        margin-top:-1.75em;
+    }
+    .version-profile--info {
+        width: 100%;
+    }
+    .info-primary {
+        width: 25em;
+        margin: 2em auto;
+    }
+    .info-secondary {
+        width: 32em;
         margin: 0 auto;
         padding: 1em 0;
         text-align: left;
         line-height: 1.5em;
     }
-    .version-job {
-        width: 100%;
+    .version-project--titles {
+        font-size: 3em;
     }
-    
-    .version-job:nth-of-type(6) {
-        width: 63%;
-    }
-    .version-number {
-        font-size: 4em;
-    }
-    .version-current {
-        margin-top: -2em;
+    .logo-footer {
+        width: 3em;
     }
 }
 
-@media (min-width: 586px) {
-    h1.page-title {
-        width: 68%;
-}
-
-@media (min-width: 957px) {
-    h1.page-title {
-        font-size: 9.8em;
+@media (min-width: 844px) {
+    h1.page-title  {
+        font-size: 10.8em;
     }
-    .content-container {
+    .version-profile {
         width: 33%;
     }
     .version-number {
@@ -443,25 +404,19 @@ footer > .logo img {
         margin-top: -1.4em;
     }
 }
-
-@media (min-width: 1110px) {
+@media (min-width: 1124px) {
     h1.page-title {
-        font-size: 10.8em;
+        font-size: 11.8em;
     }
 }
-
-@media (min-width: 1420px) {
+@media (min-width: 1353px) {
     h1.page-title {
-        min-width: 46%;
-        font-size: 10.8em;
+        font-size: 12.8em;
     }
 }
-
-@media (min-width: 1600px) {
+@media (min-width: 1464px) {
     h1.page-title {
-        min-width: 46%;
-        font-size: 13.8em;
+        width: 1443px;
+        margin: .15em auto;
     }
 }
-
-/* end */
