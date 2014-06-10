@@ -113,7 +113,7 @@ header {
     margin: 2em;
 }
 
-.info a {
+.button {
     background-color: #000;
     color: #FFF;
     font-family: "Bodoni W01 Bold Italic 709608", 'Times New Roman';
@@ -125,7 +125,7 @@ header {
     border-radius: 0.3em;
 }
 
-.info a:hover {
+.button:hover {
     color: #000;
     background-color: #787878;
 }
@@ -278,22 +278,6 @@ footer a:hover {
     color: #000;
 }
 
-footer > a {
-    background-color: #000;
-    color: #FFF;
-    font-family: "Bodoni W01 Bold Italic 709608", 'Times New Roman';
-    text-decoration: none;
-    padding: 1.2em 2.1em;
-    display: block;
-    width: 40%;
-    margin: 20px auto;
-    border-radius: 0.3em;
-}
-
-footer > a:hover {
-    background-color: #787878;
-}
-
 footer {
     background-color: rgb(255, 255, 255);
 }
@@ -333,7 +317,7 @@ footer p {
     .info a {
         width: 160px;
     }
-    footer > a {
+    .button {
         width: 160px;
     }
 }
