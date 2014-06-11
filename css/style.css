@@ -36,7 +36,6 @@ header {
     width: 100%;
     height: 100%;
     padding: 3em 0;
-    margin-bottom: 3em;
 }
 
 .logo {
@@ -104,7 +103,7 @@ header {
     font-style: normal;
     font-size: 2.3em;
     text-transform: uppercase;
-    margin: 0.1em auto 0.5em auto;
+    margin: 1.1em auto 0.5em auto;
     letter-spacing: .075em;
 }
 
@@ -409,17 +408,18 @@ footer p {
 /* --- special shiz --- */
 
 .logo-special {
-    margin-top: -111px;
+    width: 8%;
+    margin-top: -4.06%;
 }
 
 .page-title--special {
     font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
     font-weight: 400;
     font-style: normal;
-    font-size: 3.3em;
+    font-size: 4.3em;
     line-height: 80%;
     text-align: center;
-    margin: 0.75em auto;
+    margin: 0.500em auto;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
