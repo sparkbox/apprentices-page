@@ -36,6 +36,8 @@ header {
     width: 100%;
     height: 100%;
     padding: 3em 0;
+    margin-bottom: -.15em;
+}
 }
 
 .logo {
@@ -299,6 +301,27 @@ footer p {
 
 /* end */
 
+/* --- special shiz --- */
+
+.logo-special {
+    width: 8%;
+    margin-top: -4.06%;
+}
+
+.page-title--special {
+    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.3em;
+    line-height: 80%;
+    text-align: center;
+    margin: 0.500em auto;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* end */
+
 /* 7. Media Queries */
 
 @media (min-width: 342px) {
@@ -370,6 +393,13 @@ footer p {
     .logo-footer {
         width: 3em;
     }
+    .page-title--special {
+        font-size: 7.3em;
+    }
+    .logo-special {
+        width: 6%;
+        margin-top: -3.06%;
+    }
 }
 
 @media (min-width: 844px) {
@@ -403,23 +433,4 @@ footer p {
         width: 1443px;
         margin: .15em auto;
     }
-}
-
-/* --- special shiz --- */
-
-.logo-special {
-    width: 8%;
-    margin-top: -4.06%;
-}
-
-.page-title--special {
-    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 4.3em;
-    line-height: 80%;
-    text-align: center;
-    margin: 0.500em auto;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
 }
