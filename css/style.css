@@ -31,13 +31,12 @@ strong {
 
 /* Header */
 
-header {
+.page-header {
     background-color: rgb(205, 245, 220);
     width: 100%;
     height: 100%;
     padding: 3em 0;
     margin-bottom: -.15em;
-}
 }
 
 .logo {
