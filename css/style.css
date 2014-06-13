@@ -344,6 +344,11 @@ footer p {
     }
 }
 
+@media (min-width: 486px) {
+    .page-title {
+        font-size: 5.3em;
+    }    
+}
 @media (min-width: 505px) {
     .logo {
         width: 20%;
@@ -427,6 +432,13 @@ footer p {
         font-size: 12.8em;
     }
 }
+
+@media (min-width: 1451px) {
+    h1.page-title {
+        width: 1443px;
+        margin: .15em auto;
+    }
+
 @media (min-width: 1464px) {
     h1.page-title {
         width: 1443px;
