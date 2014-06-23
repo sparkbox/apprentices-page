@@ -5,7 +5,8 @@
 
 @import 'reset';
 
-/* Header */
+$font-book: "Bodoni W01 Book 709611", "Times New Roman";
+$font-bold-italic: "Bodoni W01 Bold Italic 709608";
 
 .page-header {
     background-color: rgb(205, 245, 220);
@@ -34,7 +35,7 @@
 }
 
 .slogan {
-    font-family: 'Bodoni W01 Book 709611', 'Times New Roman';
+    font-family: $font-book;
     letter-spacing: 0.175em;
     text-transform: uppercase;
     margin-top: 1em 0 1em 0;
@@ -64,7 +65,7 @@
 /* 3. Information */
 
 .info-primary {
-    font-family:"Bodoni W01 Bold Italic 709608", 'Times New Roman';
+    font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
     font-size: 1.3em;
     text-align: center;
     margin: 2em 2em;
@@ -85,7 +86,7 @@
 }
 
 .info-secondary {
-    font-family:"Bodoni W01 Book 709611";
+    font-family: $font-book;
     text-align: left;
     margin: 2em;
 }
@@ -93,7 +94,7 @@
 .button {
     background-color: #000;
     color: #FFF;
-    font-family: "Bodoni W01 Bold Italic 709608", 'Times New Roman';
+    font-family: $font-bold-italic;
     text-decoration: none;
     padding: 1.2em 2.1em;
     display: block;
