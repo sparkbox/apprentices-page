@@ -1,0 +1,30 @@
+/* 1. Resets & Overrides */
+
+* {
+    padding:0;
+    margin:0;
+}
+html, body {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: normal;
+}
+
+/* end */
