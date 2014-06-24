@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* 1. Resets & Overrides */
 /* line 3, ../scss/_reset.scss */
 * {
@@ -38,7 +34,7 @@ strong {
 }
 
 /* end */
-/* line 11, ../scss/screen.scss */
+/* line 16, ../scss/_screen.scss */
 .page-header {
   background-color: #cdf5dc;
   width: 100%;
@@ -47,14 +43,14 @@ strong {
   margin-bottom: -.15em;
 }
 
-/* line 19, ../scss/screen.scss */
+/* line 24, ../scss/_screen.scss */
 .logo {
   width: 22%;
   height: 100%;
   margin: 1em;
 }
 
-/* line 25, ../scss/screen.scss */
+/* line 30, ../scss/_screen.scss */
 .page-title {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -67,7 +63,7 @@ strong {
   letter-spacing: 0.05em;
 }
 
-/* line 37, ../scss/screen.scss */
+/* line 42, ../scss/_screen.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
@@ -75,17 +71,17 @@ strong {
   margin-top: 1em 0 1em 0;
 }
 
-/* line 44, ../scss/screen.scss */
+/* line 49, ../scss/_screen.scss */
 .slogan li {
   padding: 20px;
 }
 
-/* line 48, ../scss/screen.scss */
+/* line 53, ../scss/_screen.scss */
 .hr {
   position: relative;
 }
 
-/* line 52, ../scss/screen.scss */
+/* line 57, ../scss/_screen.scss */
 .hr:before {
   width: 5%;
   height: 1px;
@@ -99,7 +95,7 @@ strong {
 
 /* end */
 /* 3. Information */
-/* line 67, ../scss/screen.scss */
+/* line 72, ../scss/_screen.scss */
 .info-primary {
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   font-size: 1.3em;
@@ -107,13 +103,13 @@ strong {
   margin: 2em 2em;
 }
 
-/* line 74, ../scss/screen.scss */
+/* line 79, ../scss/_screen.scss */
 .info {
   background-color: white;
   /* check for fall back color hex code */
 }
 
-/* line 78, ../scss/screen.scss */
+/* line 83, ../scss/_screen.scss */
 .info-header {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -124,18 +120,18 @@ strong {
   letter-spacing: .075em;
 }
 
-/* line 88, ../scss/screen.scss */
+/* line 93, ../scss/_screen.scss */
 .info-secondary {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   text-align: left;
   margin: 2em;
 }
 
-/* line 94, ../scss/screen.scss */
+/* line 99, ../scss/_screen.scss */
 .button {
   background-color: #000;
   color: #FFF;
-  font-family: "Bodoni W01 Bold Italic 709608";
+  font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   text-decoration: none;
   padding: 1.2em 2.1em;
   display: block;
@@ -144,7 +140,7 @@ strong {
   border-radius: 0.3em;
 }
 
-/* line 106, ../scss/screen.scss */
+/* line 111, ../scss/_screen.scss */
 .button:hover {
   color: #000;
   background-color: #787878;
@@ -152,13 +148,13 @@ strong {
 
 /* end */
 /* 4. Version */
-/* line 115, ../scss/screen.scss */
+/* line 120, ../scss/_screen.scss */
 section {
   width: 100%;
   margin: 0 auto 1em auto;
 }
 
-/* line 120, ../scss/screen.scss */
+/* line 125, ../scss/_screen.scss */
 .version-heading {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -171,7 +167,7 @@ section {
   padding: 1em 0 1em;
 }
 
-/* line 132, ../scss/screen.scss */
+/* line 137, ../scss/_screen.scss */
 .version-number {
   color: #FFF;
   font-family: 'Knockout 94 A', 'Knockout 94 B', 'Arial', 'Sans-Serif';
@@ -182,7 +178,7 @@ section {
   margin: -0.3em auto -0.5em;
 }
 
-/* line 142, ../scss/screen.scss */
+/* line 147, ../scss/_screen.scss */
 .version-current {
   font-family: "Bodoni W01 Bold Italic 709608";
   font-weight: normal;
@@ -192,13 +188,13 @@ section {
   letter-spacing: 0.05em;
 }
 
-/* line 151, ../scss/screen.scss */
+/* line 156, ../scss/_screen.scss */
 .version--container {
   max-width: 65em;
   margin: 0 auto;
 }
 
-/* line 156, ../scss/screen.scss */
+/* line 161, ../scss/_screen.scss */
 .version-profile--image-wrapper:after {
   content: "";
   height: 3px;
@@ -210,13 +206,13 @@ section {
   margin-top: -0.4em;
 }
 
-/* line 167, ../scss/screen.scss */
+/* line 172, ../scss/_screen.scss */
 .version-profile--image {
   height: 250px;
   width: 250px;
 }
 
-/* line 172, ../scss/screen.scss */
+/* line 177, ../scss/_screen.scss */
 .version-profile--name {
   font-family: 'Knockout 94 A', 'Knockout 94 B';
   font-weight: 400;
@@ -226,7 +222,7 @@ section {
   margin: 0;
 }
 
-/* line 181, ../scss/screen.scss */
+/* line 186, ../scss/_screen.scss */
 .version-project--heading {
   font-family: "Bodoni W01 Book 709611";
   text-transform: uppercase;
@@ -234,7 +230,7 @@ section {
   padding: 3em 0 1em 0;
 }
 
-/* line 188, ../scss/screen.scss */
+/* line 193, ../scss/_screen.scss */
 .version-project--titles {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -249,30 +245,30 @@ section {
   letter-spacing: .03em;
 }
 
-/* line 202, ../scss/screen.scss */
+/* line 207, ../scss/_screen.scss */
 .version-profile--info {
   font-family: "Bodoni W01 Bold Italic 709608";
   font-size: 1em;
   margin: 1em 0 .5em 0;
 }
 
-/* line 208, ../scss/screen.scss */
+/* line 213, ../scss/_screen.scss */
 .version-3 {
   background-color: #f8f0b4;
 }
 
-/* line 212, ../scss/screen.scss */
+/* line 217, ../scss/_screen.scss */
 .version-2 {
   background-color: #fac8a1;
 }
 
-/* line 216, ../scss/screen.scss */
+/* line 221, ../scss/_screen.scss */
 .version-1 {
   background-color: #c7e1e9;
   padding-bottom: 1em;
 }
 
-/* line 221, ../scss/screen.scss */
+/* line 226, ../scss/_screen.scss */
 .version-profile {
   display: inline-block;
   vertical-align: top;
@@ -282,19 +278,19 @@ section {
 
 /* end */
 /* 5. Social Links */
-/* line 232, ../scss/screen.scss */
+/* line 237, ../scss/_screen.scss */
 .version-profile--social-links-list {
   padding: 0;
   margin: 0;
 }
 
-/* line 236, ../scss/screen.scss */
+/* line 241, ../scss/_screen.scss */
 .version-profile--social-links-item {
   display: inline-block;
   margin: 0.8em 0.3em;
 }
 
-/* line 241, ../scss/screen.scss */
+/* line 246, ../scss/_screen.scss */
 .version-profile--social-links-item i {
   color: #000;
   background-color: #FFF;
@@ -302,24 +298,24 @@ section {
   text-decoration: none;
 }
 
-/* line 248, ../scss/screen.scss */
+/* line 253, ../scss/_screen.scss */
 .version-profile--social-links-item i:hover {
   color: #FFF;
   background-color: #000;
 }
 
 /* 6. Footer */
-/* line 255, ../scss/screen.scss */
+/* line 260, ../scss/_screen.scss */
 footer a:hover {
   color: #000;
 }
 
-/* line 259, ../scss/screen.scss */
+/* line 264, ../scss/_screen.scss */
 footer {
   background-color: white;
 }
 
-/* line 263, ../scss/screen.scss */
+/* line 268, ../scss/_screen.scss */
 footer p {
   font-family: "Bodoni W01 Book 709611";
   font-size: 0.75em;
@@ -329,7 +325,7 @@ footer p {
   margin: 1em;
 }
 
-/* line 272, ../scss/screen.scss */
+/* line 277, ../scss/_screen.scss */
 .logo-footer {
   width: 10%;
   height: 100%;
@@ -338,13 +334,13 @@ footer p {
 
 /* end */
 /* --- special shiz --- */
-/* line 282, ../scss/screen.scss */
+/* line 287, ../scss/_screen.scss */
 .logo-special {
   width: 8%;
   margin-top: -4.06%;
 }
 
-/* line 287, ../scss/screen.scss */
+/* line 292, ../scss/_screen.scss */
 .page-title--special {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -360,12 +356,12 @@ footer p {
 /* end */
 /* 7. Media Queries */
 @media (min-width: 342px) {
-  /* line 304, ../scss/screen.scss */
+  /* line 5, ../scss/_mediaqueries.scss */
   .page-title {
     font-size: 4.3em;
   }
 
-  /* line 307, ../scss/screen.scss */
+  /* line 8, ../scss/_mediaqueries.scss */
   .hr:before {
     width: 3%;
     top: 3.5em;
@@ -373,39 +369,39 @@ footer p {
     margin-left: -1%;
   }
 
-  /* line 313, ../scss/screen.scss */
+  /* line 14, ../scss/_mediaqueries.scss */
   .version-number {
     font-size: 4em;
   }
 
-  /* line 316, ../scss/screen.scss */
+  /* line 17, ../scss/_mediaqueries.scss */
   .info a {
     width: 160px;
   }
 
-  /* line 319, ../scss/screen.scss */
+  /* line 20, ../scss/_mediaqueries.scss */
   .button {
     width: 160px;
   }
 }
 @media (min-width: 486px) {
-  /* line 325, ../scss/screen.scss */
+  /* line 26, ../scss/_mediaqueries.scss */
   .page-title {
     font-size: 5.3em;
   }
 }
 @media (min-width: 505px) {
-  /* line 330, ../scss/screen.scss */
+  /* line 31, ../scss/_mediaqueries.scss */
   .logo {
     width: 20%;
   }
 
-  /* line 333, ../scss/screen.scss */
+  /* line 34, ../scss/_mediaqueries.scss */
   .page-title {
     font-size: 5.3em;
   }
 
-  /* line 336, ../scss/screen.scss */
+  /* line 37, ../scss/_mediaqueries.scss */
   .hr:before {
     width: 2.25%;
     top: 3.5em;
@@ -414,38 +410,38 @@ footer p {
   }
 }
 @media (min-width: 601px) {
-  /* line 345, ../scss/screen.scss */
+  /* line 46, ../scss/_mediaqueries.scss */
   .page-title {
     font-size: 7.3em;
   }
 
-  /* line 348, ../scss/screen.scss */
+  /* line 49, ../scss/_mediaqueries.scss */
   .logo {
     width: 8em;
   }
 
-  /* line 351, ../scss/screen.scss */
+  /* line 52, ../scss/_mediaqueries.scss */
   .version-number {
     font-size: 6em;
   }
 
-  /* line 354, ../scss/screen.scss */
+  /* line 55, ../scss/_mediaqueries.scss */
   .version-current {
     margin-top: -1.75em;
   }
 
-  /* line 357, ../scss/screen.scss */
+  /* line 58, ../scss/_mediaqueries.scss */
   .version-profile--info {
     width: 100%;
   }
 
-  /* line 360, ../scss/screen.scss */
+  /* line 61, ../scss/_mediaqueries.scss */
   .info-primary {
     width: 25em;
     margin: 2em auto;
   }
 
-  /* line 364, ../scss/screen.scss */
+  /* line 65, ../scss/_mediaqueries.scss */
   .info-secondary {
     width: 32em;
     margin: 0 auto;
@@ -454,76 +450,76 @@ footer p {
     line-height: 1.5em;
   }
 
-  /* line 371, ../scss/screen.scss */
+  /* line 72, ../scss/_mediaqueries.scss */
   .version-project--titles {
     font-size: 3em;
   }
 
-  /* line 374, ../scss/screen.scss */
+  /* line 75, ../scss/_mediaqueries.scss */
   .logo-footer {
     width: 3em;
   }
 
-  /* line 377, ../scss/screen.scss */
+  /* line 78, ../scss/_mediaqueries.scss */
   .page-title--special {
     font-size: 7.3em;
   }
 
-  /* line 380, ../scss/screen.scss */
+  /* line 81, ../scss/_mediaqueries.scss */
   .logo-special {
     width: 6%;
     margin-top: -3.06%;
   }
 }
 @media (min-width: 828px) {
-  /* line 386, ../scss/screen.scss */
+  /* line 87, ../scss/_mediaqueries.scss */
   h1.page-title {
     font-size: 10.8em;
   }
 }
 @media (min-width: 844px) {
-  /* line 391, ../scss/screen.scss */
+  /* line 92, ../scss/_mediaqueries.scss */
   h1.page-title {
     font-size: 10.8em;
   }
 
-  /* line 394, ../scss/screen.scss */
+  /* line 95, ../scss/_mediaqueries.scss */
   .version-profile {
     width: 33%;
   }
 
-  /* line 397, ../scss/screen.scss */
+  /* line 98, ../scss/_mediaqueries.scss */
   .version-number {
     font-size: 9em;
   }
 
-  /* line 401, ../scss/screen.scss */
+  /* line 102, ../scss/_mediaqueries.scss */
   .version-current {
     font-size: 4.2em;
     margin-top: -1.4em;
   }
 }
 @media (min-width: 1124px) {
-  /* line 407, ../scss/screen.scss */
+  /* line 108, ../scss/_mediaqueries.scss */
   h1.page-title {
     font-size: 11.8em;
   }
 }
 @media (min-width: 1334px) {
-  /* line 412, ../scss/screen.scss */
+  /* line 113, ../scss/_mediaqueries.scss */
   h1.page-title {
     font-size: 12.8em;
   }
 }
 @media (min-width: 1451px) {
-  /* line 418, ../scss/screen.scss */
+  /* line 119, ../scss/_mediaqueries.scss */
   h1.page-title {
     width: 1443px;
     margin: .15em auto;
   }
 }
 @media (min-width: 1464px) {
-  /* line 424, ../scss/screen.scss */
+  /* line 125, ../scss/_mediaqueries.scss */
   h1.page-title {
     width: 1443px;
     margin: .15em auto;

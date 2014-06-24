@@ -1,12 +1,17 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import 'reset';
+@import 'mixins';
 
 $font-book: "Bodoni W01 Book 709611", "Times New Roman";
-$font-bold-italic: "Bodoni W01 Bold Italic 709608";
+$font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
+$font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
+$apprentice-blue: #C7E1E9;
+$apprentice-green: #B7E4C4;
+$apprentice-orange: #FAC8A1;
+$apprentice-yellow: #F8F0B4;
+$light-yellow: #faf5cb;
+$black: #000;
+$gray: #747474;
+$apprentice-radius: 6px;
 
 .page-header {
     background-color: rgb(205, 245, 220);
@@ -206,15 +211,15 @@ section {
 }
 
 .version-3 {
-    background-color: rgb(248, 240, 180);
+    background-color: $apprentice-yellow;
 }
 
 .version-2 {
-    background-color: rgb(250, 200, 161);
+    background-color: $apprentice-orange;
 }
 
 .version-1 {
-    background-color: rgb(199, 225, 233);
+    background-color: $apprentice-blue;
     padding-bottom: 1em;
 }
 
@@ -298,131 +303,4 @@ footer p {
 
 /* end */
 
-/* 7. Media Queries */
-
-@media (min-width: 342px) {
-    .page-title {
-        font-size:4.3em;
-    }
-    .hr:before {
-        width: 3%;
-        top: 3.5em;
-        position: absolute;
-        margin-left:-1%;
-    }
-    .version-number {
-        font-size: 4em;
-    }
-    .info a {
-        width: 160px;
-    }
-    .button {
-        width: 160px;
-    }
-}
-
-@media (min-width: 486px) {
-    .page-title {
-        font-size: 5.3em;
-    }    
-}
-@media (min-width: 505px) {
-    .logo {
-        width: 20%;
-    }
-    .page-title {
-        font-size: 5.3em;
-    }
-    .hr:before {
-        width: 2.25%;
-        top: 3.5em;
-        position: absolute;
-        margin-left: -1.75%;
-    }
-}
-
-@media (min-width: 601px) {
-    .page-title {
-        font-size: 7.3em;
-    }
-    .logo {
-        width: 8em;
-    }
-    .version-number {
-        font-size: 6em;
-    }
-    .version-current {
-        margin-top:-1.75em;
-    }
-    .version-profile--info {
-        width: 100%;
-    }
-    .info-primary {
-        width: 25em;
-        margin: 2em auto;
-    }
-    .info-secondary {
-        width: 32em;
-        margin: 0 auto;
-        padding: 1em 0;
-        text-align: left;
-        line-height: 1.5em;
-    }
-    .version-project--titles {
-        font-size: 3em;
-    }
-    .logo-footer {
-        width: 3em;
-    }
-    .page-title--special {
-        font-size: 7.3em;
-    }
-    .logo-special {
-        width: 6%;
-        margin-top: -3.06%;
-    }
-}
-@media (min-width: 828px) {
-    h1.page-title  {
-        font-size: 10.8em;
-    }
-}
-@media (min-width: 844px) {
-    h1.page-title  {
-        font-size: 10.8em;
-    }
-    .version-profile {
-        width: 33%;
-    }
-    .version-number {
-        font-size: 9em;
-    }
-
-    .version-current {
-        font-size: 4.2em;
-        margin-top: -1.4em;
-    }
-}
-@media (min-width: 1124px) {
-    h1.page-title {
-        font-size: 11.8em;
-    }
-}
-@media (min-width: 1334px) {
-    h1.page-title {
-        font-size: 12.8em;
-    }
-}
-
-@media (min-width: 1451px) {
-    h1.page-title {
-        width: 1443px;
-        margin: .15em auto;
-    }
-}
-@media (min-width: 1464px) {
-    h1.page-title {
-        width: 1443px;
-        margin: .15em auto;
-    }
-}
+@import 'mediaqueries';
