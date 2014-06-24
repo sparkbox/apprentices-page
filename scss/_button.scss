@@ -1,0 +1,29 @@
+$font-knockout: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+$font-book: "Bodoni W01 Book 709611", "Times New Roman";
+$font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
+$font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
+$blue: #C7E1E9;
+$green: #B7E4C4;
+$orange: #FAC8A1;
+$yellow: #F8F0B4;
+$light-yellow: #faf5cb;
+$black: #000;
+$gray: #747474;
+$apprentice-radius: 6px;
+
+.button {
+    background-color: #000;
+    color: #FFF;
+    font-family: $font-bold-italic;
+    text-decoration: none;
+    padding: 1.2em 2.1em;
+    display: block;
+    width: 40%;
+    margin: 2.500em auto;
+    border-radius: 0.3em;
+}
+
+.button:hover {
+    color: #000;
+    background-color: #787878;
+}

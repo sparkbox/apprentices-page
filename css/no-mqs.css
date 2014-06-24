@@ -34,7 +34,7 @@ strong {
 }
 
 /* end */
-/* line 16, ../scss/_screen.scss */
+/* line 14, ../scss/_header.scss */
 .page-header {
   background-color: #cdf5dc;
   width: 100%;
@@ -43,16 +43,16 @@ strong {
   margin-bottom: -.15em;
 }
 
-/* line 24, ../scss/_screen.scss */
+/* line 22, ../scss/_header.scss */
 .logo {
   width: 22%;
   height: 100%;
   margin: 1em;
 }
 
-/* line 30, ../scss/_screen.scss */
+/* line 28, ../scss/_header.scss */
 .page-title {
-  font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+  font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
   font-style: normal;
   font-size: 3.3em;
@@ -63,7 +63,7 @@ strong {
   letter-spacing: 0.05em;
 }
 
-/* line 42, ../scss/_screen.scss */
+/* line 40, ../scss/_header.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
@@ -71,17 +71,17 @@ strong {
   margin-top: 1em 0 1em 0;
 }
 
-/* line 49, ../scss/_screen.scss */
+/* line 47, ../scss/_header.scss */
 .slogan li {
   padding: 20px;
 }
 
-/* line 53, ../scss/_screen.scss */
+/* line 51, ../scss/_header.scss */
 .hr {
   position: relative;
 }
 
-/* line 57, ../scss/_screen.scss */
+/* line 55, ../scss/_header.scss */
 .hr:before {
   width: 5%;
   height: 1px;
@@ -93,9 +93,7 @@ strong {
   content: "";
 }
 
-/* end */
-/* 3. Information */
-/* line 72, ../scss/_screen.scss */
+/* line 14, ../scss/_info.scss */
 .info-primary {
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   font-size: 1.3em;
@@ -103,13 +101,13 @@ strong {
   margin: 2em 2em;
 }
 
-/* line 79, ../scss/_screen.scss */
+/* line 21, ../scss/_info.scss */
 .info {
   background-color: white;
   /* check for fall back color hex code */
 }
 
-/* line 83, ../scss/_screen.scss */
+/* line 25, ../scss/_info.scss */
 .info-header {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -120,14 +118,14 @@ strong {
   letter-spacing: .075em;
 }
 
-/* line 93, ../scss/_screen.scss */
+/* line 35, ../scss/_info.scss */
 .info-secondary {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   text-align: left;
   margin: 2em;
 }
 
-/* line 99, ../scss/_screen.scss */
+/* line 14, ../scss/_button.scss */
 .button {
   background-color: #000;
   color: #FFF;
@@ -140,21 +138,19 @@ strong {
   border-radius: 0.3em;
 }
 
-/* line 111, ../scss/_screen.scss */
+/* line 26, ../scss/_button.scss */
 .button:hover {
   color: #000;
   background-color: #787878;
 }
 
-/* end */
-/* 4. Version */
-/* line 120, ../scss/_screen.scss */
+/* line 14, ../scss/_version.scss */
 section {
   width: 100%;
   margin: 0 auto 1em auto;
 }
 
-/* line 125, ../scss/_screen.scss */
+/* line 19, ../scss/_version.scss */
 .version-heading {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -167,7 +163,7 @@ section {
   padding: 1em 0 1em;
 }
 
-/* line 137, ../scss/_screen.scss */
+/* line 31, ../scss/_version.scss */
 .version-number {
   color: #FFF;
   font-family: 'Knockout 94 A', 'Knockout 94 B', 'Arial', 'Sans-Serif';
@@ -178,7 +174,7 @@ section {
   margin: -0.3em auto -0.5em;
 }
 
-/* line 147, ../scss/_screen.scss */
+/* line 41, ../scss/_version.scss */
 .version-current {
   font-family: "Bodoni W01 Bold Italic 709608";
   font-weight: normal;
@@ -188,13 +184,13 @@ section {
   letter-spacing: 0.05em;
 }
 
-/* line 156, ../scss/_screen.scss */
+/* line 50, ../scss/_version.scss */
 .version--container {
   max-width: 65em;
   margin: 0 auto;
 }
 
-/* line 161, ../scss/_screen.scss */
+/* line 55, ../scss/_version.scss */
 .version-profile--image-wrapper:after {
   content: "";
   height: 3px;
@@ -206,13 +202,13 @@ section {
   margin-top: -0.4em;
 }
 
-/* line 172, ../scss/_screen.scss */
+/* line 66, ../scss/_version.scss */
 .version-profile--image {
   height: 250px;
   width: 250px;
 }
 
-/* line 177, ../scss/_screen.scss */
+/* line 71, ../scss/_version.scss */
 .version-profile--name {
   font-family: 'Knockout 94 A', 'Knockout 94 B';
   font-weight: 400;
@@ -222,7 +218,7 @@ section {
   margin: 0;
 }
 
-/* line 186, ../scss/_screen.scss */
+/* line 80, ../scss/_version.scss */
 .version-project--heading {
   font-family: "Bodoni W01 Book 709611";
   text-transform: uppercase;
@@ -230,7 +226,7 @@ section {
   padding: 3em 0 1em 0;
 }
 
-/* line 193, ../scss/_screen.scss */
+/* line 87, ../scss/_version.scss */
 .version-project--titles {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -245,30 +241,30 @@ section {
   letter-spacing: .03em;
 }
 
-/* line 207, ../scss/_screen.scss */
+/* line 101, ../scss/_version.scss */
 .version-profile--info {
   font-family: "Bodoni W01 Bold Italic 709608";
   font-size: 1em;
   margin: 1em 0 .5em 0;
 }
 
-/* line 213, ../scss/_screen.scss */
+/* line 107, ../scss/_version.scss */
 .version-3 {
   background-color: #f8f0b4;
 }
 
-/* line 217, ../scss/_screen.scss */
+/* line 111, ../scss/_version.scss */
 .version-2 {
   background-color: #fac8a1;
 }
 
-/* line 221, ../scss/_screen.scss */
+/* line 115, ../scss/_version.scss */
 .version-1 {
   background-color: #c7e1e9;
   padding-bottom: 1em;
 }
 
-/* line 226, ../scss/_screen.scss */
+/* line 120, ../scss/_version.scss */
 .version-profile {
   display: inline-block;
   vertical-align: top;
@@ -276,21 +272,19 @@ section {
   margin-top: 3em;
 }
 
-/* end */
-/* 5. Social Links */
-/* line 237, ../scss/_screen.scss */
+/* line 1, ../scss/_social.scss */
 .version-profile--social-links-list {
   padding: 0;
   margin: 0;
 }
 
-/* line 241, ../scss/_screen.scss */
+/* line 5, ../scss/_social.scss */
 .version-profile--social-links-item {
   display: inline-block;
   margin: 0.8em 0.3em;
 }
 
-/* line 246, ../scss/_screen.scss */
+/* line 10, ../scss/_social.scss */
 .version-profile--social-links-item i {
   color: #000;
   background-color: #FFF;
@@ -298,24 +292,23 @@ section {
   text-decoration: none;
 }
 
-/* line 253, ../scss/_screen.scss */
+/* line 17, ../scss/_social.scss */
 .version-profile--social-links-item i:hover {
   color: #FFF;
   background-color: #000;
 }
 
-/* 6. Footer */
-/* line 260, ../scss/_screen.scss */
+/* line 14, ../scss/_footer.scss */
 footer a:hover {
   color: #000;
 }
 
-/* line 264, ../scss/_screen.scss */
+/* line 18, ../scss/_footer.scss */
 footer {
   background-color: white;
 }
 
-/* line 268, ../scss/_screen.scss */
+/* line 22, ../scss/_footer.scss */
 footer p {
   font-family: "Bodoni W01 Book 709611";
   font-size: 0.75em;
@@ -325,35 +318,13 @@ footer p {
   margin: 1em;
 }
 
-/* line 277, ../scss/_screen.scss */
+/* line 31, ../scss/_footer.scss */
 .logo-footer {
   width: 10%;
   height: 100%;
   margin: 1em;
 }
 
-/* end */
-/* --- special shiz --- */
-/* line 287, ../scss/_screen.scss */
-.logo-special {
-  width: 8%;
-  margin-top: -4.06%;
-}
-
-/* line 292, ../scss/_screen.scss */
-.page-title--special {
-  font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
-  font-weight: 400;
-  font-style: normal;
-  font-size: 4.3em;
-  line-height: 80%;
-  text-align: center;
-  margin: 0.500em auto;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-/* end */
 /* 7. Media Queries */
 @media (min-width: 342px) {
   /* line 5, ../scss/_mediaqueries.scss */
@@ -524,4 +495,22 @@ footer p {
     width: 1443px;
     margin: .15em auto;
   }
+}
+/* line 12, ../scss/_screen.scss */
+.logo-special {
+  width: 8%;
+  margin-top: -4.06%;
+}
+
+/* line 17, ../scss/_screen.scss */
+.page-title--special {
+  font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.3em;
+  line-height: 80%;
+  text-align: center;
+  margin: 0.500em auto;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }

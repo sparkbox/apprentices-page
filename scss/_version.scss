@@ -1,0 +1,125 @@
+$font-knockout: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+$font-book: "Bodoni W01 Book 709611", "Times New Roman";
+$font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
+$font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
+$blue: #C7E1E9;
+$green: #B7E4C4;
+$orange: #FAC8A1;
+$yellow: #F8F0B4;
+$light-yellow: #faf5cb;
+$black: #000;
+$gray: #747474;
+$apprentice-radius: 6px;
+
+section {
+    width: 100%;
+    margin: 0 auto 1em auto;
+}
+
+.version-heading {
+    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    letter-spacing: .075em;
+    display: block;
+    padding: 1em 0 1em;
+}
+
+.version-number {
+    color: #FFF;
+    font-family: 'Knockout 94 A', 'Knockout 94 B', 'Arial', 'Sans-Serif';
+    font-weight: 400;
+    font-size: 3em;
+    font-style: normal;
+    display: block;
+    margin: -0.3em auto -0.5em;
+}
+
+.version-current {
+    font-family:"Bodoni W01 Bold Italic 709608";
+    font-weight: normal;
+    font-size: 2.2em;
+    margin-top: -1.85em;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.version--container {
+    max-width: 65em;
+    margin: 0 auto;
+}
+
+.version-profile--image-wrapper:after {
+    content: "";
+    height: 3px;
+    background-color: #FFF;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-top: -0.4em;
+}
+
+.version-profile--image {
+    height: 250px;
+    width: 250px;
+}
+
+.version-profile--name {
+    font-family: 'Knockout 94 A', 'Knockout 94 B';
+    font-weight: 400;
+    font-size: 2em;
+    padding-top: 0.4em;
+    position: relative;
+    margin: 0;
+}
+
+.version-project--heading {
+    font-family:"Bodoni W01 Book 709611";
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 3em 0 1em 0;
+}
+
+.version-project--titles {
+    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1em;
+    padding: 0.5em 0 1em 0;
+    margin: 0;
+    letter-spacing: .03em;
+}
+
+.version-profile--info {
+    font-family:"Bodoni W01 Bold Italic 709608";
+    font-size: 1em;
+    margin: 1em 0 .5em 0;
+}
+
+.version-3 {
+    background-color: $yellow;
+}
+
+.version-2 {
+    background-color: $orange;
+}
+
+.version-1 {
+    background-color: $blue;
+    padding-bottom: 1em;
+}
+
+.version-profile {
+    display:inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 3em;
+}
