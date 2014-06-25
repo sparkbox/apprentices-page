@@ -1,0 +1,28 @@
+// variables //
+
+$font-book: "Bodoni W01 Book 709611", "Times New Roman";
+
+// -------------------------------------------------------------------- //
+
+footer a:hover {
+    color: #000;
+}
+
+footer p {
+    font-family:$font-book;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-bottom: 4em;
+    margin: 1em;
+}
+
+.logo-footer {
+    width: 10%;
+    height: 100%;
+    margin: 1em;
+
+    @include sb-media (37.563em) {
+        width: 3em;
+    }
+}
