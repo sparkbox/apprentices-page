@@ -49,8 +49,20 @@ strong {
   height: 100%;
   margin: 1em;
 }
+@media (min-width: 31.563em) {
+  /* line 22, ../scss/_header.scss */
+  .logo {
+    width: 20%;
+  }
+}
+@media (min-width: 37.563em) {
+  /* line 22, ../scss/_header.scss */
+  .logo {
+    width: 8em;
+  }
+}
 
-/* line 28, ../scss/_header.scss */
+/* line 35, ../scss/_header.scss */
 .page-title {
   font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
@@ -63,62 +75,62 @@ strong {
   letter-spacing: 0.05em;
 }
 @media (min-width: 21.375em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 4.3em;
   }
 }
 @media (min-width: 30.375em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 5.3em;
   }
 }
 @media (min-width: 31.563em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 5.3em;
   }
 }
 @media (min-width: 37.563em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 7.3em;
   }
 }
 @media (min-width: 51.75em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 10.8em;
   }
 }
 @media (min-width: 52.57em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 10.8em;
   }
 }
 @media (min-width: 70.26em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 11.8em;
   }
 }
 @media (min-width: 83.75em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     font-size: 12.8em;
   }
 }
 @media (min-width: 90.688em) {
-  /* line 28, ../scss/_header.scss */
+  /* line 35, ../scss/_header.scss */
   .page-title {
     width: 1443px;
     margin: .15em auto;
   }
 }
 
-/* line 77, ../scss/_header.scss */
+/* line 84, ../scss/_header.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
@@ -126,17 +138,17 @@ strong {
   margin-top: 1em 0 1em 0;
 }
 
-/* line 84, ../scss/_header.scss */
+/* line 91, ../scss/_header.scss */
 .slogan li {
   padding: 20px;
 }
 
-/* line 88, ../scss/_header.scss */
+/* line 95, ../scss/_header.scss */
 .hr {
   position: relative;
 }
 
-/* line 92, ../scss/_header.scss */
+/* line 99, ../scss/_header.scss */
 .hr:before {
   width: 5%;
   height: 1px;
@@ -147,24 +159,43 @@ strong {
   margin-left: -3%;
   content: "";
 }
+@media (min-width: 21.375em) {
+  /* line 99, ../scss/_header.scss */
+  .hr:before {
+    width: 3%;
+    top: 3.5em;
+    position: absolute;
+    margin-left: -1%;
+  }
+}
+@media (min-width: 31.563em) {
+  /* line 99, ../scss/_header.scss */
+  .hr:before {
+    width: 2.25%;
+    top: 3.5em;
+    position: absolute;
+    margin-left: -1.75%;
+  }
+}
 
-/* line 14, ../scss/_info.scss */
+/* line 5, ../scss/_info.scss */
 .info-primary {
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   font-size: 1.3em;
   text-align: center;
   margin: 2em 2em;
 }
-
-/* line 21, ../scss/_info.scss */
-.info {
-  background-color: white;
-  /* check for fall back color hex code */
+@media (min-width: 37.563em) {
+  /* line 5, ../scss/_info.scss */
+  .info-primary {
+    width: 25em;
+    margin: 2em auto;
+  }
 }
 
-/* line 25, ../scss/_info.scss */
+/* line 17, ../scss/_info.scss */
 .info-header {
-  font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+  font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
   font-style: normal;
   font-size: 2.3em;
@@ -173,17 +204,27 @@ strong {
   letter-spacing: .075em;
 }
 
-/* line 35, ../scss/_info.scss */
+/* line 27, ../scss/_info.scss */
 .info-secondary {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   text-align: left;
   margin: 2em;
 }
+@media (min-width: 37.563em) {
+  /* line 27, ../scss/_info.scss */
+  .info-secondary {
+    width: 32em;
+    margin: 0 auto;
+    padding: 1em 0;
+    text-align: left;
+    line-height: 1.5em;
+  }
+}
 
-/* line 14, ../scss/_button.scss */
+/* line 12, ../scss/_button.scss */
 .button {
-  background-color: #000;
-  color: #FFF;
+  background-color: black;
+  color: white;
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   text-decoration: none;
   padding: 1.2em 2.1em;
@@ -192,11 +233,17 @@ strong {
   margin: 2.500em auto;
   border-radius: 0.3em;
 }
+@media (min-width: 21.375em) {
+  /* line 12, ../scss/_button.scss */
+  .button {
+    width: 10em;
+  }
+}
 
-/* line 26, ../scss/_button.scss */
+/* line 28, ../scss/_button.scss */
 .button:hover {
-  color: #000;
-  background-color: #787878;
+  color: black;
+  background-color: #747474;
 }
 
 /* line 14, ../scss/_version.scss */
@@ -228,8 +275,14 @@ section {
   display: block;
   margin: -0.3em auto -0.5em;
 }
+@media (min-width: 21.375em) {
+  /* line 31, ../scss/_version.scss */
+  .version-number {
+    font-size: 4em;
+  }
+}
 
-/* line 41, ../scss/_version.scss */
+/* line 45, ../scss/_version.scss */
 .version-current {
   font-family: "Bodoni W01 Bold Italic 709608";
   font-weight: normal;
@@ -239,13 +292,13 @@ section {
   letter-spacing: 0.05em;
 }
 
-/* line 50, ../scss/_version.scss */
+/* line 54, ../scss/_version.scss */
 .version--container {
   max-width: 65em;
   margin: 0 auto;
 }
 
-/* line 55, ../scss/_version.scss */
+/* line 59, ../scss/_version.scss */
 .version-profile--image-wrapper:after {
   content: "";
   height: 3px;
@@ -257,13 +310,13 @@ section {
   margin-top: -0.4em;
 }
 
-/* line 66, ../scss/_version.scss */
+/* line 70, ../scss/_version.scss */
 .version-profile--image {
   height: 250px;
   width: 250px;
 }
 
-/* line 71, ../scss/_version.scss */
+/* line 75, ../scss/_version.scss */
 .version-profile--name {
   font-family: 'Knockout 94 A', 'Knockout 94 B';
   font-weight: 400;
@@ -273,7 +326,7 @@ section {
   margin: 0;
 }
 
-/* line 80, ../scss/_version.scss */
+/* line 84, ../scss/_version.scss */
 .version-project--heading {
   font-family: "Bodoni W01 Book 709611";
   text-transform: uppercase;
@@ -281,7 +334,7 @@ section {
   padding: 3em 0 1em 0;
 }
 
-/* line 87, ../scss/_version.scss */
+/* line 91, ../scss/_version.scss */
 .version-project--titles {
   font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
   font-weight: 400;
@@ -296,30 +349,30 @@ section {
   letter-spacing: .03em;
 }
 
-/* line 101, ../scss/_version.scss */
+/* line 105, ../scss/_version.scss */
 .version-profile--info {
   font-family: "Bodoni W01 Bold Italic 709608";
   font-size: 1em;
   margin: 1em 0 .5em 0;
 }
 
-/* line 107, ../scss/_version.scss */
+/* line 111, ../scss/_version.scss */
 .version-3 {
   background-color: #f8f0b4;
 }
 
-/* line 111, ../scss/_version.scss */
+/* line 115, ../scss/_version.scss */
 .version-2 {
   background-color: #fac8a1;
 }
 
-/* line 115, ../scss/_version.scss */
+/* line 119, ../scss/_version.scss */
 .version-1 {
   background-color: #c7e1e9;
   padding-bottom: 1em;
 }
 
-/* line 120, ../scss/_version.scss */
+/* line 124, ../scss/_version.scss */
 .version-profile {
   display: inline-block;
   vertical-align: top;
@@ -381,113 +434,55 @@ footer p {
 }
 
 /* 7. Media Queries */
-@media (min-width: 342px) {
-  /* line 8, ../scss/_mediaqueries.scss */
-  .hr:before {
-    width: 3%;
-    top: 3.5em;
-    position: absolute;
-    margin-left: -1%;
-  }
-
-  /* line 14, ../scss/_mediaqueries.scss */
-  .version-number {
-    font-size: 4em;
-  }
-
-  /* line 17, ../scss/_mediaqueries.scss */
-  .info a {
-    width: 160px;
-  }
-
-  /* line 20, ../scss/_mediaqueries.scss */
-  .button {
-    width: 160px;
-  }
-}
-@media (min-width: 505px) {
-  /* line 31, ../scss/_mediaqueries.scss */
-  .logo {
-    width: 20%;
-  }
-
-  /* line 37, ../scss/_mediaqueries.scss */
-  .hr:before {
-    width: 2.25%;
-    top: 3.5em;
-    position: absolute;
-    margin-left: -1.75%;
-  }
-}
 @media (min-width: 601px) {
-  /* line 49, ../scss/_mediaqueries.scss */
-  .logo {
-    width: 8em;
-  }
-
-  /* line 52, ../scss/_mediaqueries.scss */
+  /* line 48, ../scss/_mediaqueries.scss */
   .version-number {
     font-size: 6em;
   }
 
-  /* line 55, ../scss/_mediaqueries.scss */
+  /* line 51, ../scss/_mediaqueries.scss */
   .version-current {
     margin-top: -1.75em;
   }
 
-  /* line 58, ../scss/_mediaqueries.scss */
+  /* line 54, ../scss/_mediaqueries.scss */
   .version-profile--info {
     width: 100%;
   }
 
-  /* line 61, ../scss/_mediaqueries.scss */
-  .info-primary {
-    width: 25em;
-    margin: 2em auto;
-  }
-
-  /* line 65, ../scss/_mediaqueries.scss */
-  .info-secondary {
-    width: 32em;
-    margin: 0 auto;
-    padding: 1em 0;
-    text-align: left;
-    line-height: 1.5em;
-  }
-
-  /* line 72, ../scss/_mediaqueries.scss */
+  /* line 68, ../scss/_mediaqueries.scss */
   .version-project--titles {
     font-size: 3em;
   }
 
-  /* line 75, ../scss/_mediaqueries.scss */
+  /* line 71, ../scss/_mediaqueries.scss */
   .logo-footer {
     width: 3em;
   }
 
-  /* line 78, ../scss/_mediaqueries.scss */
+  /* line 74, ../scss/_mediaqueries.scss */
   .page-title--special {
     font-size: 7.3em;
   }
 
-  /* line 81, ../scss/_mediaqueries.scss */
+  /* line 77, ../scss/_mediaqueries.scss */
   .logo-special {
     width: 6%;
     margin-top: -3.06%;
   }
 }
 @media (min-width: 844px) {
-  /* line 95, ../scss/_mediaqueries.scss */
+  /* line 91, ../scss/_mediaqueries.scss */
   .version-profile {
     width: 33%;
   }
 
-  /* line 98, ../scss/_mediaqueries.scss */
+  /* line 94, ../scss/_mediaqueries.scss */
   .version-number {
     font-size: 9em;
   }
 
-  /* line 102, ../scss/_mediaqueries.scss */
+  /* line 98, ../scss/_mediaqueries.scss */
   .version-current {
     font-size: 4.2em;
     margin-top: -1.4em;

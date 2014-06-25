@@ -1,25 +1,21 @@
-
 /* 7. Media Queries */
 
 @media (min-width: 342px) {
     // .page-title {
     //     font-size:4.3em;
     // }
-    .hr:before {
-        width: 3%;
-        top: 3.5em;
-        position: absolute;
-        margin-left:-1%;
-    }
-    .version-number {
-        font-size: 4em;
-    }
-    .info a {
-        width: 160px;
-    }
-    .button {
-        width: 160px;
-    }
+    // .hr:before {
+    //     width: 3%;
+    //     top: 3.5em;
+    //     position: absolute;
+    //     margin-left:-1%;
+    // }
+    // .version-number {
+    //     font-size: 4em;
+    // }
+    // .info a {
+    //     width: 160px;
+    // }
 }
 
 @media (min-width: 486px) {
@@ -28,27 +24,27 @@
     // }    
 }
 @media (min-width: 505px) {
-    .logo {
-        width: 20%;
-    }
+    // .logo {
+    //     width: 20%;
+    // }
     // .page-title {
     //     font-size: 5.3em;
     // }
-    .hr:before {
-        width: 2.25%;
-        top: 3.5em;
-        position: absolute;
-        margin-left: -1.75%;
-    }
+    // .hr:before {
+    //     width: 2.25%;
+    //     top: 3.5em;
+    //     position: absolute;
+    //     margin-left: -1.75%;
+    // }
 }
 
 @media (min-width: 601px) {
     // .page-title {
     //     font-size: 7.3em;
     // }
-    .logo {
-        width: 8em;
-    }
+    // .logo {
+    //     width: 8em;
+    // }
     .version-number {
         font-size: 6em;
     }
@@ -58,17 +54,17 @@
     .version-profile--info {
         width: 100%;
     }
-    .info-primary {
-        width: 25em;
-        margin: 2em auto;
-    }
-    .info-secondary {
-        width: 32em;
-        margin: 0 auto;
-        padding: 1em 0;
-        text-align: left;
-        line-height: 1.5em;
-    }
+    // .info-primary {
+    //     width: 25em;
+    //     margin: 2em auto;
+    // }
+    // .info-secondary {
+    //     width: 32em;
+    //     margin: 0 auto;
+    //     padding: 1em 0;
+    //     text-align: left;
+    //     line-height: 1.5em;
+    // }
     .version-project--titles {
         font-size: 3em;
     }

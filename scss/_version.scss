@@ -36,6 +36,10 @@ section {
     font-style: normal;
     display: block;
     margin: -0.3em auto -0.5em;
+
+    @include sb-media (21.375em) {
+        font-size: 4em;
+    }
 }
 
 .version-current {

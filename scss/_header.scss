@@ -23,6 +23,13 @@ $apprentice-radius: 6px;
     width: 22%;
     height: 100%;
     margin: 1em;
+    @include sb-media (31.563em) {
+        width: 20%;
+    }
+
+    @include sb-media (37.563em) {
+        width: 8em;
+    }
 }
 
 .page-title {
@@ -98,4 +105,18 @@ $apprentice-radius: 6px;
     left: 50%;
     margin-left:-3%;
     content: "";
+
+    @include sb-media (21.375em) {
+        width: 3%;
+        top: 3.5em;
+        position: absolute;
+        margin-left:-1%;
+    }
+
+    @include sb-media (31.563em) {
+        width: 2.25%;
+        top: 3.5em;
+        position: absolute;
+        margin-left: -1.75%;
+    }
 }

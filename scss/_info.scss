@@ -1,29 +1,21 @@
 $font-knockout: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
 $font-book: "Bodoni W01 Book 709611", "Times New Roman";
-$font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
 $font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
-$blue: #C7E1E9;
-$green: #B7E4C4;
-$orange: #FAC8A1;
-$yellow: #F8F0B4;
-$light-yellow: #faf5cb;
-$black: #000;
-$gray: #747474;
-$apprentice-radius: 6px;
 
 .info-primary {
-    font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
+    font-family: $font-bold-italic;
     font-size: 1.3em;
     text-align: center;
     margin: 2em 2em;
-}
 
-.info {
-    background-color: rgb(255, 255, 255); /* check for fall back color hex code */
+    @include sb-media (37.563em) {
+        width: 25em;
+        margin: 2em auto;
+    }
 }
 
 .info-header {
-    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-family: $font-knockout;
     font-weight: 400;
     font-style: normal;
     font-size: 2.3em;
@@ -36,4 +28,12 @@ $apprentice-radius: 6px;
     font-family: $font-book;
     text-align: left;
     margin: 2em;
+
+    @include sb-media (37.563em) {
+        width: 32em;
+        margin: 0 auto;
+        padding: 1em 0;
+        text-align: left;
+        line-height: 1.5em;
+    }
 }
