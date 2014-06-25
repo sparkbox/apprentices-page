@@ -140,7 +140,7 @@ strong {
   line-height: 1.5em;
 }
 
-/* line 12, ../scss/_button.scss */
+/* line 14, ../scss/_button.scss */
 .button {
   background-color: black;
   color: white;
@@ -150,11 +150,15 @@ strong {
   display: block;
   width: 40%;
   margin: 2.500em auto;
-  border-radius: 0.3em;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
   width: 10em;
 }
 
-/* line 28, ../scss/_button.scss */
+/* line 30, ../scss/_button.scss */
 .button:hover {
   color: black;
   background-color: #747474;
