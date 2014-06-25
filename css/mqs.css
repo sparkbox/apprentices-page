@@ -32,6 +32,12 @@ strong {
   font-weight: normal;
 }
 
+/* line 28, ../scss/_reset.scss */
+a, img {
+  border: 0;
+  outline: none;
+}
+
 /* line 10, ../scss/_header.scss */
 .page-header {
   background-color: #cdf5dc;
