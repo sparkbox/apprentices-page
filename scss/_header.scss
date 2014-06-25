@@ -1,0 +1,118 @@
+// variables //
+
+$font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
+$font-book: "Bodoni W01 Book 709611", "Times New Roman";
+$green: #CDF5DC;
+$black: #000;
+
+// -------------------------------------------------------------------- //
+
+.page-header {
+    background-color: $green;
+    width: 100%;
+    height: 100%;
+    padding: 3em 0;
+    margin-bottom: -.15em;
+}
+
+.logo {
+    width: 22%;
+    height: 100%;
+    margin: 1em;
+    @include sb-media (31.563em) {
+        width: 20%;
+    }
+
+    @include sb-media (37.563em) {
+        width: 8em;
+    }
+}
+
+.page-title {
+    font-family: $font-knockout;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.3em;
+    line-height: 80%;
+    text-align: center;
+    margin: 0.2em auto;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+// 342 //
+    @include sb-media (21.375em) {
+        font-size:4.3em;
+    }
+// 486 //
+    @include sb-media (30.375em) {
+        font-size: 5.3em;
+    }
+// 505 //
+    @include sb-media (31.563em) {
+        font-size: 5.3em;
+    }
+// 601 //
+    @include sb-media (37.563em) {
+        font-size: 7.3em;
+    }
+// 828 //
+    @include sb-media (51.750em) {
+        font-size: 10.8em;
+    }    
+// 844 //
+    @include sb-media (52.570em) {
+        font-size: 10.8em;
+    }
+// 1124 //
+    @include sb-media (70.260em) {
+        font-size: 11.8em;
+    }
+// 1334 //
+    @include sb-media (83.750em) {
+        font-size: 12.8em;
+    }
+// 1451 //
+    @include sb-media (90.688em) {
+        width: 1443px; // when converted to ems the text disappears
+        margin: .15em auto;
+    }
+}
+
+.slogan {
+    font-family: $font-book;
+    letter-spacing: 0.175em;
+    text-transform: uppercase;
+    margin-top: 1em 0 1em 0;
+}
+
+.slogan li {
+    padding: 20px;
+}
+
+.hr {
+    position: relative;
+}
+
+.hr:before {
+    width: 5%;
+    height: 1px;
+    background: $black;
+    position: absolute;
+    top: 4.5em;
+    left: 50%;
+    margin-left:-3%;
+    content: "";
+
+    @include sb-media (21.375em) {
+        width: 3%;
+        top: 3.5em;
+        position: absolute;
+        margin-left:-1%;
+    }
+
+    @include sb-media (31.563em) {
+        width: 2.25%;
+        top: 3.5em;
+        position: absolute;
+        margin-left: -1.75%;
+    }
+}

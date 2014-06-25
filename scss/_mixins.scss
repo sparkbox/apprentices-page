@@ -1,0 +1,14 @@
+$no-mq-support: false !default;
+$serve-to-nomq-max-width: 60em;
+ 
+@mixin sb-media($query) {
+  @if $no-mq-support{
+    @if $query < $serve-to-nomq-max-width {
+      @content;
+    }
+  } @else {
+    @media ( 'min-width:' + $query ) {
+      @content;
+    }
+  }
+}
