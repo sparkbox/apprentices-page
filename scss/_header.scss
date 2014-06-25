@@ -35,6 +35,43 @@ $apprentice-radius: 6px;
     margin: 0.2em auto;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+// 342 //
+    @include sb-media (21.375em) {
+        font-size:4.3em;
+    }
+// 486 //
+    @include sb-media (30.375em) {
+        font-size: 5.3em;
+    }
+// 505 //
+    @include sb-media (31.563em) {
+        font-size: 5.3em;
+    }
+// 601 //
+    @include sb-media (37.563em) {
+        font-size: 7.3em;
+    }
+// 828 //
+    @include sb-media (51.750em) {
+        font-size: 10.8em;
+    }    
+// 844 //
+    @include sb-media (52.570em) {
+        font-size: 10.8em;
+    }
+// 1124 //
+    @include sb-media (70.260em) {
+        font-size: 11.8em;
+    }
+// 1334 //
+    @include sb-media (83.750em) {
+        font-size: 12.8em;
+    }
+// 1451 //
+    @include sb-media (90.688em) {
+        width: 1443px; // when converted to ems the text disappears
+        margin: .15em auto;
+    }
 }
 
 .slogan {

@@ -61,9 +61,15 @@ strong {
   margin: 0.2em auto;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  font-size: 4.3em;
+  font-size: 5.3em;
+  font-size: 5.3em;
+  font-size: 7.3em;
+  font-size: 10.8em;
+  font-size: 10.8em;
 }
 
-/* line 40, ../scss/_header.scss */
+/* line 77, ../scss/_header.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
@@ -71,17 +77,17 @@ strong {
   margin-top: 1em 0 1em 0;
 }
 
-/* line 47, ../scss/_header.scss */
+/* line 84, ../scss/_header.scss */
 .slogan li {
   padding: 20px;
 }
 
-/* line 51, ../scss/_header.scss */
+/* line 88, ../scss/_header.scss */
 .hr {
   position: relative;
 }
 
-/* line 55, ../scss/_header.scss */
+/* line 92, ../scss/_header.scss */
 .hr:before {
   width: 5%;
   height: 1px;
@@ -327,11 +333,6 @@ footer p {
 
 /* 7. Media Queries */
 @media (min-width: 342px) {
-  /* line 5, ../scss/_mediaqueries.scss */
-  .page-title {
-    font-size: 4.3em;
-  }
-
   /* line 8, ../scss/_mediaqueries.scss */
   .hr:before {
     width: 3%;
@@ -355,21 +356,10 @@ footer p {
     width: 160px;
   }
 }
-@media (min-width: 486px) {
-  /* line 26, ../scss/_mediaqueries.scss */
-  .page-title {
-    font-size: 5.3em;
-  }
-}
 @media (min-width: 505px) {
   /* line 31, ../scss/_mediaqueries.scss */
   .logo {
     width: 20%;
-  }
-
-  /* line 34, ../scss/_mediaqueries.scss */
-  .page-title {
-    font-size: 5.3em;
   }
 
   /* line 37, ../scss/_mediaqueries.scss */
@@ -381,11 +371,6 @@ footer p {
   }
 }
 @media (min-width: 601px) {
-  /* line 46, ../scss/_mediaqueries.scss */
-  .page-title {
-    font-size: 7.3em;
-  }
-
   /* line 49, ../scss/_mediaqueries.scss */
   .logo {
     width: 8em;
@@ -442,18 +427,7 @@ footer p {
     margin-top: -3.06%;
   }
 }
-@media (min-width: 828px) {
-  /* line 87, ../scss/_mediaqueries.scss */
-  h1.page-title {
-    font-size: 10.8em;
-  }
-}
 @media (min-width: 844px) {
-  /* line 92, ../scss/_mediaqueries.scss */
-  h1.page-title {
-    font-size: 10.8em;
-  }
-
   /* line 95, ../scss/_mediaqueries.scss */
   .version-profile {
     width: 33%;
@@ -468,32 +442,6 @@ footer p {
   .version-current {
     font-size: 4.2em;
     margin-top: -1.4em;
-  }
-}
-@media (min-width: 1124px) {
-  /* line 108, ../scss/_mediaqueries.scss */
-  h1.page-title {
-    font-size: 11.8em;
-  }
-}
-@media (min-width: 1334px) {
-  /* line 113, ../scss/_mediaqueries.scss */
-  h1.page-title {
-    font-size: 12.8em;
-  }
-}
-@media (min-width: 1451px) {
-  /* line 119, ../scss/_mediaqueries.scss */
-  h1.page-title {
-    width: 1443px;
-    margin: .15em auto;
-  }
-}
-@media (min-width: 1464px) {
-  /* line 125, ../scss/_mediaqueries.scss */
-  h1.page-title {
-    width: 1443px;
-    margin: .15em auto;
   }
 }
 /* line 12, ../scss/_screen.scss */
