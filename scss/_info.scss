@@ -1,6 +1,10 @@
-$font-knockout: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+// variables //
+
+$font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
 $font-book: "Bodoni W01 Book 709611", "Times New Roman";
 $font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
+
+// -------------------------------------------------------------------- //
 
 .info-primary {
     font-family: $font-bold-italic;

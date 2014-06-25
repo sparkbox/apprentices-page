@@ -1,26 +1,15 @@
-$font-knockout: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+// variables //
+
 $font-book: "Bodoni W01 Book 709611", "Times New Roman";
-$font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
-$font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
-$blue: #C7E1E9;
-$green: #B7E4C4;
-$orange: #FAC8A1;
-$yellow: #F8F0B4;
-$light-yellow: #faf5cb;
-$black: #000;
-$gray: #747474;
-$apprentice-radius: 6px;
+
+// -------------------------------------------------------------------- //
 
 footer a:hover {
     color: #000;
 }
 
-footer {
-    background-color: rgb(255, 255, 255);
-}
-
 footer p {
-    font-family:"Bodoni W01 Book 709611";
+    font-family:$font-book;
     font-size: 0.75em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -32,4 +21,8 @@ footer p {
     width: 10%;
     height: 100%;
     margin: 1em;
+
+    @include sb-media (37.563em) {
+        width: 3em;
+    }
 }

@@ -1,0 +1,31 @@
+// variables //
+
+$font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
+
+// -------------------------------------------------------------------- //
+
+.logo-special {
+    width: 8%;
+    margin-top: -4.06%;
+
+    @include sb-media (37.563em) {
+        width: 6%;
+        margin-top: -3.06%;
+    }
+}
+
+.page-title--special {
+    font-family: $font-knockout;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.3em;
+    line-height: 80%;
+    text-align: center;
+    margin: 0.500em auto;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    @include sb-media (37.563em) {
+        font-size: 7.3em;
+    }
+}

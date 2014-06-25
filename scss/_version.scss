@@ -1,15 +1,16 @@
-$font-knockout: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+// variables //
+
+$font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
+$font-knockout-fat: "Knockout 94 A", "Knockout 94 B", "Arial", "Sans-Serif";
 $font-book: "Bodoni W01 Book 709611", "Times New Roman";
 $font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
 $font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
 $blue: #C7E1E9;
-$green: #B7E4C4;
 $orange: #FAC8A1;
 $yellow: #F8F0B4;
-$light-yellow: #faf5cb;
-$black: #000;
-$gray: #747474;
-$apprentice-radius: 6px;
+$number-color: #FFF;
+
+// -------------------------------------------------------------------- //
 
 section {
     width: 100%;
@@ -17,7 +18,7 @@ section {
 }
 
 .version-heading {
-    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-family: $font-knockout;
     font-weight: 400;
     font-style: normal;
     font-size: 2.3em;
@@ -29,8 +30,8 @@ section {
 }
 
 .version-number {
-    color: #FFF;
-    font-family: 'Knockout 94 A', 'Knockout 94 B', 'Arial', 'Sans-Serif';
+    color: $number-color;
+    font-family: $font-knockout-fat;
     font-weight: 400;
     font-size: 3em;
     font-style: normal;
@@ -40,15 +41,32 @@ section {
     @include sb-media (21.375em) {
         font-size: 4em;
     }
+
+    @include sb-media (37.563em) {
+        font-size: 6em;
+    }
+
+    @include sb-media (52.570em) {
+        font-size: 9em;
+    }
 }
 
 .version-current {
-    font-family:"Bodoni W01 Bold Italic 709608";
+    font-family: $font-bold-italic;
     font-weight: normal;
     font-size: 2.2em;
     margin-top: -1.85em;
     text-align: center;
     letter-spacing: 0.05em;
+
+    @include sb-media (37.563em) {
+        margin-top:-1.75em;
+    }
+
+    @include sb-media (52.570em) {
+        font-size: 4.2em;
+        margin-top: -1.4em;
+    }
 }
 
 .version--container {
@@ -73,7 +91,7 @@ section {
 }
 
 .version-profile--name {
-    font-family: 'Knockout 94 A', 'Knockout 94 B';
+    font-family: $font-knockout-fat;
     font-weight: 400;
     font-size: 2em;
     padding-top: 0.4em;
@@ -82,14 +100,14 @@ section {
 }
 
 .version-project--heading {
-    font-family:"Bodoni W01 Book 709611";
+    font-family: $font-book;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     padding: 3em 0 1em 0;
 }
 
 .version-project--titles {
-    font-family: 'Knockout 26 A', 'Knockout 26 B', 'Arial','Sans-Serif';
+    font-family: $font-knockout;
     font-weight: 400;
     font-style: normal;
     font-size: 2.7em;
@@ -100,12 +118,20 @@ section {
     padding: 0.5em 0 1em 0;
     margin: 0;
     letter-spacing: .03em;
+
+    @include sb-media (37.563em) {
+        font-size: 3em;
+    }
 }
 
 .version-profile--info {
-    font-family:"Bodoni W01 Bold Italic 709608";
+    font-family: $font-bold-italic;
     font-size: 1em;
     margin: 1em 0 .5em 0;
+
+    @include sb-media (37.563em) {
+        width: 100%;
+    }
 }
 
 .version-3 {
@@ -126,4 +152,8 @@ section {
     vertical-align: top;
     width: 100%;
     margin-top: 3em;
+
+    @include sb-media (52.570em) {
+        width: 33%;
+    }
 }
