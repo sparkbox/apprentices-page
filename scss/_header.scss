@@ -16,11 +16,11 @@ $black: #000;
 }
 
 .logo {
-    width: 22%;
+    width: 3.094em;
     height: 100%;
     margin: 1em;
     @include sb-media (31.563em) {
-        width: 20%;
+        width: 4.734em;
     }
 
     @include sb-media (37.563em) {
@@ -38,39 +38,39 @@ $black: #000;
     margin: 0.2em auto;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-// 342 //
+// 342px //
     @include sb-media (21.375em) {
         font-size:4.3em;
     }
-// 486 //
+// 486px //
     @include sb-media (30.375em) {
         font-size: 5.3em;
     }
-// 505 //
+// 505px //
     @include sb-media (31.563em) {
         font-size: 5.3em;
     }
-// 601 //
+// 601px //
     @include sb-media (37.563em) {
         font-size: 7.3em;
     }
-// 828 //
+// 828px //
     @include sb-media (51.750em) {
         font-size: 10.8em;
     }    
-// 844 //
+// 844px //
     @include sb-media (52.570em) {
         font-size: 10.8em;
     }
-// 1124 //
+// 1124px //
     @include sb-media (70.260em) {
         font-size: 11.8em;
     }
-// 1334 //
+// 1334px //
     @include sb-media (83.750em) {
         font-size: 12.8em;
     }
-// 1451 //
+// 1451px //
     @include sb-media (90.688em) {
         width: 1443px; // when converted to ems the text disappears
         margin: .15em auto;

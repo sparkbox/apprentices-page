@@ -49,14 +49,14 @@ a, img {
 
 /* line 18, ../scss/_header.scss */
 .logo {
-  width: 22%;
+  width: 3.094em;
   height: 100%;
   margin: 1em;
 }
 @media (min-width: 31.563em) {
   /* line 18, ../scss/_header.scss */
   .logo {
-    width: 20%;
+    width: 4.734em;
   }
 }
 @media (min-width: 37.563em) {
