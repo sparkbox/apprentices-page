@@ -50,13 +50,12 @@ a, img {
 /* line 18, ../scss/_header.scss */
 .logo {
   width: 3.094em;
-  height: 100%;
   margin: 1em;
   width: 4.734em;
   width: 8em;
 }
 
-/* line 31, ../scss/_header.scss */
+/* line 30, ../scss/_header.scss */
 .page-title {
   font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
@@ -75,7 +74,7 @@ a, img {
   font-size: 10.8em;
 }
 
-/* line 80, ../scss/_header.scss */
+/* line 79, ../scss/_header.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
@@ -83,17 +82,17 @@ a, img {
   margin-top: 1em 0 1em 0;
 }
 
-/* line 87, ../scss/_header.scss */
+/* line 86, ../scss/_header.scss */
 .slogan li {
   padding: 20px;
 }
 
-/* line 91, ../scss/_header.scss */
+/* line 90, ../scss/_header.scss */
 .hr {
   position: relative;
 }
 
-/* line 95, ../scss/_header.scss */
+/* line 94, ../scss/_header.scss */
 .hr:before {
   width: 5%;
   height: 1px;
