@@ -116,24 +116,17 @@ a, img {
 @media (min-width: 70.26em) {
   /* line 30, ../scss/_header.scss */
   .page-title {
-    font-size: 11.8em;
+    font-size: 12.8em;
   }
 }
 @media (min-width: 83.75em) {
   /* line 30, ../scss/_header.scss */
   .page-title {
-    font-size: 12.8em;
-  }
-}
-@media (min-width: 90.688em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    width: 1443px;
-    margin: .15em auto;
+    font-size: 12.9em;
   }
 }
 
-/* line 79, ../scss/_header.scss */
+/* line 74, ../scss/_header.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
@@ -141,17 +134,17 @@ a, img {
   margin-top: 1em 0 1em 0;
 }
 
-/* line 86, ../scss/_header.scss */
+/* line 81, ../scss/_header.scss */
 .slogan li {
   padding: 20px;
 }
 
-/* line 90, ../scss/_header.scss */
+/* line 85, ../scss/_header.scss */
 .hr {
   position: relative;
 }
 
-/* line 94, ../scss/_header.scss */
+/* line 89, ../scss/_header.scss */
 .hr:before {
   width: 5%;
   height: 1px;
@@ -163,7 +156,7 @@ a, img {
   content: "";
 }
 @media (min-width: 21.375em) {
-  /* line 94, ../scss/_header.scss */
+  /* line 89, ../scss/_header.scss */
   .hr:before {
     width: 3%;
     top: 3.5em;
@@ -172,7 +165,7 @@ a, img {
   }
 }
 @media (min-width: 31.563em) {
-  /* line 94, ../scss/_header.scss */
+  /* line 89, ../scss/_header.scss */
   .hr:before {
     width: 2.25%;
     top: 3.5em;

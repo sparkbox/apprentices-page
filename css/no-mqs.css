@@ -74,7 +74,7 @@ a, img {
   font-size: 10.8em;
 }
 
-/* line 79, ../scss/_header.scss */
+/* line 74, ../scss/_header.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
@@ -82,17 +82,17 @@ a, img {
   margin-top: 1em 0 1em 0;
 }
 
-/* line 86, ../scss/_header.scss */
+/* line 81, ../scss/_header.scss */
 .slogan li {
   padding: 20px;
 }
 
-/* line 90, ../scss/_header.scss */
+/* line 85, ../scss/_header.scss */
 .hr {
   position: relative;
 }
 
-/* line 94, ../scss/_header.scss */
+/* line 89, ../scss/_header.scss */
 .hr:before {
   width: 5%;
   height: 1px;
