@@ -474,7 +474,6 @@ footer p {
 /* line 20, ../scss/_footer.scss */
 .logo-footer {
   width: 10%;
-  height: 100%;
   margin: 1em;
 }
 @media (min-width: 37.563em) {
