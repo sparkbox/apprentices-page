@@ -7,8 +7,6 @@ set :environment, ENV['on'] || env_config.fetch('default')
 
 set :shared_paths, %w[ .htaccess ]
 
-set :branch, "automate-all-the-things"
-
 task :environment do
   env_config.fetch(environment).each do |key, value|
     set key.to_sym, value.to_s
