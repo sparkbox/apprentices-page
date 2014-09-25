@@ -3,7 +3,9 @@ module.exports = function(grunt) {
     pkg: require("./package.json")
   });
   grunt.loadTasks("grunt");
-  grunt.registerTask("server", ["connect", "watch"]);
+  grunt.registerTask("compile", ["sass"])
+  grunt.registerTask("dev", ["compile", "copy", "connect", "watch"])
+  grunt.registerTask("buildProduction", ["compile", "validation"]);
   // Default task
-  return grunt.registerTask("default", "server")
+  return grunt.registerTask("default", "dev")
 };

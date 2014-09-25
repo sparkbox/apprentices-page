@@ -1,71 +1,46 @@
-/* line 1, ../scss/_reset.scss */
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 5, ../scss/_reset.scss */
 html, body {
   font-size: 16px;
   text-align: center;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 11, ../scss/_reset.scss */
 li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
-/* line 15, ../scss/_reset.scss */
 h1 {
-  font-size: 1em;
-}
+  font-size: 1em; }
 
-/* line 19, ../scss/_reset.scss */
 a {
   color: #000;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
-/* line 24, ../scss/_reset.scss */
 strong {
-  font-weight: normal;
-}
+  font-weight: normal; }
 
-/* line 28, ../scss/_reset.scss */
 a, img {
   border: 0;
-  outline: none;
-}
+  outline: none; }
 
-/* line 10, ../scss/_header.scss */
 .page-header {
-  background-color: #cdf5dc;
+  background-color: #CDF5DC;
   width: 100%;
   height: 100%;
   padding: 3em 0;
-  margin-bottom: -.15em;
-}
+  margin-bottom: -.15em; }
 
-/* line 18, ../scss/_header.scss */
 .logo {
   width: 3.094em;
-  margin: 1em;
-}
-@media (min-width: 31.563em) {
-  /* line 18, ../scss/_header.scss */
-  .logo {
-    width: 4.734em;
-  }
-}
-@media (min-width: 37.563em) {
-  /* line 18, ../scss/_header.scss */
-  .logo {
-    width: 8em;
-  }
-}
+  margin: 1em; }
+  @media (min-width: 31.563em) {
+    .logo {
+      width: 4.734em; } }
+  @media (min-width: 37.563em) {
+    .logo {
+      width: 8em; } }
 
-/* line 30, ../scss/_header.scss */
 .page-title {
   font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
@@ -75,121 +50,76 @@ a, img {
   text-align: center;
   margin: 0.2em auto;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-@media (min-width: 21.375em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 4.3em;
-  }
-}
-@media (min-width: 30.375em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 5.3em;
-  }
-}
-@media (min-width: 31.563em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 5.3em;
-  }
-}
-@media (min-width: 37.563em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 7.3em;
-  }
-}
-@media (min-width: 51.75em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 10.8em;
-  }
-}
-@media (min-width: 52.57em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 10.8em;
-  }
-}
-@media (min-width: 70.26em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 12.8em;
-  }
-}
-@media (min-width: 83.75em) {
-  /* line 30, ../scss/_header.scss */
-  .page-title {
-    font-size: 14.9em;
-  }
-}
+  letter-spacing: 0.05em; }
+  @media (min-width: 21.375em) {
+    .page-title {
+      font-size: 4.3em; } }
+  @media (min-width: 30.375em) {
+    .page-title {
+      font-size: 5.3em; } }
+  @media (min-width: 31.563em) {
+    .page-title {
+      font-size: 5.3em; } }
+  @media (min-width: 37.563em) {
+    .page-title {
+      font-size: 7.3em; } }
+  @media (min-width: 51.75em) {
+    .page-title {
+      font-size: 10.8em; } }
+  @media (min-width: 52.57em) {
+    .page-title {
+      font-size: 10.8em; } }
+  @media (min-width: 70.26em) {
+    .page-title {
+      font-size: 12.8em; } }
+  @media (min-width: 83.75em) {
+    .page-title {
+      font-size: 14.9em; } }
 
-/* line 74, ../scss/_header.scss */
 .slogan {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   letter-spacing: 0.175em;
   text-transform: uppercase;
-  margin-top: 1em 0 1em 0;
-}
+  margin-top: 1em 0 1em 0; }
 
-/* line 81, ../scss/_header.scss */
 .slogan li {
-  padding: 20px;
-}
+  padding: 20px; }
 
-/* line 85, ../scss/_header.scss */
 .hr {
-  position: relative;
-}
+  position: relative; }
 
-/* line 89, ../scss/_header.scss */
 .hr:before {
   width: 5%;
   height: 1px;
-  background: black;
+  background: #000;
   position: absolute;
   top: 4.5em;
   left: 50%;
   margin-left: -3%;
-  content: "";
-}
-@media (min-width: 21.375em) {
-  /* line 89, ../scss/_header.scss */
-  .hr:before {
-    width: 3%;
-    top: 3.5em;
-    position: absolute;
-    margin-left: -1%;
-  }
-}
-@media (min-width: 31.563em) {
-  /* line 89, ../scss/_header.scss */
-  .hr:before {
-    width: 2.25%;
-    top: 3.5em;
-    position: absolute;
-    margin-left: -1.75%;
-  }
-}
+  content: ""; }
+  @media (min-width: 21.375em) {
+    .hr:before {
+      width: 3%;
+      top: 3.5em;
+      position: absolute;
+      margin-left: -1%; } }
+  @media (min-width: 31.563em) {
+    .hr:before {
+      width: 2.25%;
+      top: 3.5em;
+      position: absolute;
+      margin-left: -1.75%; } }
 
-/* line 9, ../scss/_info.scss */
 .info-primary {
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   font-size: 1.3em;
   text-align: center;
-  margin: 2em 2em;
-}
-@media (min-width: 37.563em) {
-  /* line 9, ../scss/_info.scss */
-  .info-primary {
-    width: 25em;
-    margin: 2em auto;
-  }
-}
+  margin: 2em 2em; }
+  @media (min-width: 37.563em) {
+    .info-primary {
+      width: 25em;
+      margin: 2em auto; } }
 
-/* line 21, ../scss/_info.scss */
 .info-header {
   font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
@@ -197,62 +127,41 @@ a, img {
   font-size: 2.3em;
   text-transform: uppercase;
   margin: 1.1em auto 0.5em auto;
-  letter-spacing: .075em;
-}
+  letter-spacing: .075em; }
 
-/* line 31, ../scss/_info.scss */
 .info-secondary {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   text-align: left;
-  margin: 2em;
-}
-@media (min-width: 37.563em) {
-  /* line 31, ../scss/_info.scss */
-  .info-secondary {
-    width: 32em;
-    margin: 0 auto;
-    padding: 1em 0;
-    text-align: left;
-    line-height: 1.5em;
-  }
-}
+  margin: 2em; }
+  @media (min-width: 37.563em) {
+    .info-secondary {
+      width: 32em;
+      margin: 0 auto;
+      padding: 1em 0;
+      text-align: left;
+      line-height: 1.5em; } }
 
-/* line 14, ../scss/_button.scss */
 .button {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #FFF;
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   text-decoration: none;
   padding: 1.2em 2.1em;
   display: block;
   width: 40%;
-  margin: 2.500em auto;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-}
-@media (min-width: 21.375em) {
-  /* line 14, ../scss/_button.scss */
-  .button {
-    width: 10em;
-  }
-}
+  margin: 2.500em auto; }
+  @media (min-width: 21.375em) {
+    .button {
+      width: 10em; } }
 
-/* line 30, ../scss/_button.scss */
 .button:hover {
-  color: black;
-  background-color: #747474;
-}
+  color: #000;
+  background-color: #747474; }
 
-/* line 15, ../scss/_version.scss */
 section {
   width: 100%;
-  margin: 0 auto 1em auto;
-}
+  margin: 0 auto 1em auto; }
 
-/* line 20, ../scss/_version.scss */
 .version-heading {
   font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
@@ -262,68 +171,45 @@ section {
   margin: 0 auto;
   letter-spacing: .075em;
   display: block;
-  padding: 1em 0 1em;
-}
+  padding: 1em 0 1em; }
 
-/* line 32, ../scss/_version.scss */
 .version-number {
-  color: white;
+  color: #FFF;
   font-family: "Knockout 94 A", "Knockout 94 B", "Arial", "Sans-Serif";
   font-weight: 400;
   font-size: 3em;
   font-style: normal;
   display: block;
-  margin: -0.3em auto -0.5em;
-}
-@media (min-width: 21.375em) {
-  /* line 32, ../scss/_version.scss */
-  .version-number {
-    font-size: 4em;
-  }
-}
-@media (min-width: 37.563em) {
-  /* line 32, ../scss/_version.scss */
-  .version-number {
-    font-size: 6em;
-  }
-}
-@media (min-width: 52.57em) {
-  /* line 32, ../scss/_version.scss */
-  .version-number {
-    font-size: 9em;
-  }
-}
+  margin: -0.3em auto -0.5em; }
+  @media (min-width: 21.375em) {
+    .version-number {
+      font-size: 4em; } }
+  @media (min-width: 37.563em) {
+    .version-number {
+      font-size: 6em; } }
+  @media (min-width: 52.57em) {
+    .version-number {
+      font-size: 9em; } }
 
-/* line 54, ../scss/_version.scss */
 .version-current {
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   font-weight: normal;
   font-size: 2.2em;
   margin-top: -1.85em;
   text-align: center;
-  letter-spacing: 0.05em;
-}
-@media (min-width: 37.563em) {
-  /* line 54, ../scss/_version.scss */
-  .version-current {
-    margin-top: -1.75em;
-  }
-}
-@media (min-width: 52.57em) {
-  /* line 54, ../scss/_version.scss */
-  .version-current {
-    font-size: 4.2em;
-    margin-top: -1.4em;
-  }
-}
+  letter-spacing: 0.05em; }
+  @media (min-width: 37.563em) {
+    .version-current {
+      margin-top: -1.75em; } }
+  @media (min-width: 52.57em) {
+    .version-current {
+      font-size: 4.2em;
+      margin-top: -1.4em; } }
 
-/* line 72, ../scss/_version.scss */
 .version--container {
   max-width: 65em;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
-/* line 77, ../scss/_version.scss */
 .version-profile--image-wrapper:after {
   content: "";
   height: 3px;
@@ -332,34 +218,26 @@ section {
   display: block;
   position: absolute;
   left: 0;
-  margin-top: -0.4em;
-}
+  margin-top: -0.4em; }
 
-/* line 88, ../scss/_version.scss */
 .version-profile--image {
   height: 250px;
-  width: 250px;
-}
+  width: 250px; }
 
-/* line 93, ../scss/_version.scss */
 .version-profile--name {
   font-family: "Knockout 94 A", "Knockout 94 B", "Arial", "Sans-Serif";
   font-weight: 400;
   font-size: 2em;
   padding-top: 0.4em;
   position: relative;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 102, ../scss/_version.scss */
 .version-project--heading {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  padding: 3em 0 1em 0;
-}
+  padding: 3em 0 1em 0; }
 
-/* line 109, ../scss/_version.scss */
 .version-project--titles {
   font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
@@ -371,125 +249,82 @@ section {
   line-height: 1em;
   padding: 0.5em 0 1em 0;
   margin: 0;
-  letter-spacing: .03em;
-}
-@media (min-width: 37.563em) {
-  /* line 109, ../scss/_version.scss */
-  .version-project--titles {
-    font-size: 3em;
-  }
-}
+  letter-spacing: .03em; }
+  @media (min-width: 37.563em) {
+    .version-project--titles {
+      font-size: 3em; } }
 
-/* line 127, ../scss/_version.scss */
 .version-profile--info {
   font-family: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   font-size: 1em;
-  margin: 1em 0 .5em 0;
-}
-@media (min-width: 37.563em) {
-  /* line 127, ../scss/_version.scss */
-  .version-profile--info {
-    width: 100%;
-  }
-}
+  margin: 1em 0 .5em 0; }
+  @media (min-width: 37.563em) {
+    .version-profile--info {
+      width: 100%; } }
 
-/* line 137, ../scss/_version.scss */
 .version-3 {
-  background-color: #f8f0b4;
-}
+  background-color: #F8F0B4; }
 
-/* line 141, ../scss/_version.scss */
 .version-2 {
-  background-color: #fac8a1;
-}
+  background-color: #FAC8A1; }
 
-/* line 145, ../scss/_version.scss */
 .version-1 {
-  background-color: #c7e1e9;
-  padding-bottom: 1em;
-}
+  background-color: #C7E1E9;
+  padding-bottom: 1em; }
 
-/* line 150, ../scss/_version.scss */
 .version-profile {
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  margin-top: 3em;
-}
-@media (min-width: 52.57em) {
-  /* line 150, ../scss/_version.scss */
-  .version-profile {
-    width: 33%;
-  }
-}
+  margin-top: 3em; }
+  @media (min-width: 52.57em) {
+    .version-profile {
+      width: 33%; } }
 
-/* line 10, ../scss/_social.scss */
 .version-profile--social-links-list {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 14, ../scss/_social.scss */
 .version-profile--social-links-item {
   display: inline-block;
-  margin: 0.8em 0.3em;
-}
+  margin: 0.8em 0.3em; }
 
-/* line 19, ../scss/_social.scss */
 .version-profile--social-links-item i {
-  color: black;
-  background-color: white;
-  border-radius: 50%;
-  text-decoration: none;
-}
-
-/* line 26, ../scss/_social.scss */
-.version-profile--social-links-item i:hover {
-  color: white;
-  background-color: black;
-}
-
-/* line 7, ../scss/_footer.scss */
-footer a:hover {
   color: #000;
-}
+  background-color: #FFF;
+  border-radius: 50%;
+  text-decoration: none; }
 
-/* line 11, ../scss/_footer.scss */
+.version-profile--social-links-item i:hover {
+  color: #FFF;
+  background-color: #000; }
+
+footer a:hover {
+  color: #000; }
+
 footer p {
   font-family: "Bodoni W01 Book 709611", "Times New Roman";
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding-bottom: 4em;
-  margin: 1em;
-}
+  margin: 1em; }
 
-/* line 20, ../scss/_footer.scss */
 .logo-footer {
   width: 10%;
-  margin: 1em;
-}
-@media (min-width: 37.563em) {
-  /* line 20, ../scss/_footer.scss */
-  .logo-footer {
-    width: 3em;
-  }
-}
+  margin: 1em; }
+  @media (min-width: 37.563em) {
+    .logo-footer {
+      width: 3em; } }
 
-/* line 7, ../scss/_apply-page.scss */
 .logo-special {
   width: 8%;
-  margin-top: -4.06%;
-}
-@media (min-width: 37.563em) {
-  /* line 7, ../scss/_apply-page.scss */
-  .logo-special {
-    width: 6%;
-    margin-top: -3.06%;
-  }
-}
+  margin-top: -4.06%; }
+  @media (min-width: 37.563em) {
+    .logo-special {
+      width: 6%;
+      margin-top: -3.06%; } }
 
-/* line 17, ../scss/_apply-page.scss */
 .page-title--special {
   font-family: "Knockout 26 A", "Knockout 26 B", "Arial", "Sans-Serif";
   font-weight: 400;
@@ -499,11 +334,22 @@ footer p {
   text-align: center;
   margin: 0.500em auto;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-@media (min-width: 37.563em) {
-  /* line 17, ../scss/_apply-page.scss */
-  .page-title--special {
-    font-size: 7.3em;
-  }
-}
+  letter-spacing: 0.05em; }
+  @media (min-width: 37.563em) {
+    .page-title--special {
+      font-size: 7.3em; } }
+
+@font-face {
+  font-family: "Bodoni W01 Book 709611";
+  src: url("Fonts/dd896678-2492-4538-a2f8-a1087ebc1e37.eot?#iefix");
+  src: url("Fonts/dd896678-2492-4538-a2f8-a1087ebc1e37.eot?#iefix") format("eot"), url("Fonts/ba4b8c27-e5cc-4b4b-b277-127dca0e8f4f.woff") format("woff"), url("Fonts/0771e6fd-6e6a-4c81-a462-08cd2d69e3ec.ttf") format("truetype"), url("Fonts/d0c30112-880f-411f-b967-c2a4a7d3754b.svg#d0c30112-880f-411f-b967-c2a4a7d3754b") format("svg"); }
+@font-face {
+  font-family: "Bodoni W01 Bold 709602";
+  src: url("Fonts/0a3b2afc-1177-49fc-b852-6d36f4b37543.eot?#iefix");
+  src: url("Fonts/0a3b2afc-1177-49fc-b852-6d36f4b37543.eot?#iefix") format("eot"), url("Fonts/0ca9a4ed-de46-457a-bc45-f0f87ffd44f2.woff") format("woff"), url("Fonts/87bae0ea-8bc0-45e8-b82d-ccb13870d0e2.ttf") format("truetype"), url("Fonts/46e3e54a-6865-45b5-a951-f0c86163af88.svg#46e3e54a-6865-45b5-a951-f0c86163af88") format("svg"); }
+@font-face {
+  font-family: "Bodoni W01 Bold Italic 709608";
+  src: url("Fonts/8e76616d-ce24-4651-8581-84dcc7ae3751.eot?#iefix");
+  src: url("Fonts/8e76616d-ce24-4651-8581-84dcc7ae3751.eot?#iefix") format("eot"), url("Fonts/6f551fc0-4c6f-4ef0-b026-f1e148977a7b.woff") format("woff"), url("Fonts/32eb1298-d5c4-4112-a2f5-ee0ac5051b72.ttf") format("truetype"), url("Fonts/79868027-7d4d-452f-a701-80ad10720730.svg#79868027-7d4d-452f-a701-80ad10720730") format("svg"); }
+
+/*# sourceMappingURL=mqs.css.map */

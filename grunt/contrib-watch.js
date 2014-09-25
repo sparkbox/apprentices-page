@@ -12,25 +12,17 @@ module.exports = function(grunt) {
     },
     pages: {
       files: "patterns/pages/**/*.html",
-      tasks: ["build"],
+      tasks: ["buildProduction"],
       options: {
         livereload: true
       }
     },
     javascript: {
       files: ["coffee/*", "js/*.js", "!js/_bower-libs.js", "js/other-libs/*.js", "js/other-js/*.js"],
-      tasks: "javascript:dev",
+      tasks: "javascript",
       options: {
         livereload: true
       }
-    },
-    specs: {
-      files: ["specs/*.coffee"],
-      tasks: ["coffee:jasmine_specs", "jasmine"]
-    },
-    publicDirectory: {
-      files: ["public/**/*"],
-      tasks: "default"
     }
   });
   return grunt.loadNpmTasks('grunt-contrib-watch');
