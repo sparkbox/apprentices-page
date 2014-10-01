@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.config("sass", {
     dist: {
       files: {
-        'css/mqs.css' : 'scss/mqs.scss'
+        'dist/css/mqs.css' : 'scss/mqs.scss'
       }
     }
   });
