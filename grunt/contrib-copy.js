@@ -1,8 +1,10 @@
 module.exports = function(grunt) {
   grunt.config("copy", {
     main: {
-      src: "patterns/pages/*",
-      dest: "dist/static/"
+      expand: true,
+      cwd: "pages/",
+      src: "*.html",
+      dest: "dist/"
     }
   });
   return grunt.loadNpmTasks('grunt-contrib-copy');
