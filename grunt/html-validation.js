@@ -5,7 +5,7 @@ module.exports = function(grunt) {
       stoponerror: false,
     },
     files: {
-      src: "patterns/pages/*.html"
+      src: "pages/*.html"
     }
   });
 

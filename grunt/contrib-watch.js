@@ -2,16 +2,16 @@ module.exports = function(grunt) {
   grunt.config("watch", {
     stylesheets: {
       files: "scss/**/*",
-      tasks: "compass:dev"
+      tasks: "sass"
     },
     livereload: {
-      files: "dist/static/css/**/*.css",
+      files: "dist/css/**/*.css",
       options: {
         livereload: true
       }
     },
     pages: {
-      files: "patterns/pages/**/*.html",
+      files: "pages/**/*.html",
       tasks: ["buildProduction"],
       options: {
         livereload: true
