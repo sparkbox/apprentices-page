@@ -3,7 +3,8 @@ module.exports = function(grunt) {
     main: {
       files: [
         {expand: true, cwd: "pages/", src: "*.html", dest: "dist/"},
-        {expand: true, cwd: "img/", src: "*", dest: "dist/img"}
+        {expand: true, cwd: "img/", src: "*", dest: "dist/img"},
+        {expand: true, cwd: "Fonts", src: "*", dest: "dist/Fonts"}
       ]
     }
   });
