@@ -4,7 +4,6 @@ lrSnippet = require("connect-livereload")({
   port: 35729
 });
 
-
 module.exports = function(grunt) {
   grunt.config("connect", {
     server: {

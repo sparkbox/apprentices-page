@@ -1,33 +1,15 @@
-.socialicons--twitter {
-  width: 50px;
-  height: 50px;
-  background: url("/img/twitter.svg") #fff no-repeat center;
-  border-radius: 50%;
-  background-size: 20px 20px;
+.social--icon-item {
   display: inline-block;
-  margin-right: 0.5em;
-
 }
 
-.socialicons--instagram {
+.icon {
+  display: block;
+  border-radius: 50%;
+  background: #fff;
+  background-size: 25px 25px;
+  background-position: center;
   width: 50px;
   height: 50px;
-  background: url("/img/instagram.svg") #fff no-repeat center;
-  border-radius: 50%;
-  background-size: 20px 20px;
-  display: inline-block;
-  margin-right: 0.5em;
-  margin-left: 0.5em;
-
-}
-
-.socialicons--dribbble {
-  width: 50px;
-  height:50px;
-  background: url("/img/dribbble.svg") #fff no-repeat center;
-  border-radius: 50%;
-  background-size: 20px 20px;
-  display: inline-block;
   margin-right: 0.5em;
   margin-left: 0.5em;
 }
