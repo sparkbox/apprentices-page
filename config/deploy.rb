@@ -1,5 +1,6 @@
 require 'yaml'
 require 'mina/git'
+require 'mina/bundler'
 
 set :env_config, YAML.load_file('./config/env.yml')
 set :environment, ENV['on'] || env_config.fetch('default')
@@ -19,6 +20,9 @@ desc "Deploys the current version to the server."
 task :deploy => :environment do
   deploy do
     invoke 'git:clone'
+    invoke 'bundle:install'
+    queue 'npm install'
+    queue 'grunt compile'
     invoke 'deploy:link_shared_paths'
     invoke 'deploy:cleanup'
     to :launch do
