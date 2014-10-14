@@ -7,37 +7,37 @@ $font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
 // -------------------------------------------------------------------- //
 
 .info-primary {
-    font-family: $font-bold-italic;
-    font-size: 1.3em;
-    text-align: center;
-    margin: 2em 2em;
+  font-family: $font-bold-italic;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 2em 2em;
 
-    @include sb-media (37.563em) {
-        width: 25em;
-        margin: 2em auto;
-    }
+  @include sb-media (37.563em) {
+    width: 25em;
+    margin: 2em auto;
+  }
 }
 
 .info-header {
-    font-family: $font-knockout;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.3em;
-    text-transform: uppercase;
-    margin: 1.1em auto 0.5em auto;
-    letter-spacing: .075em;
+  font-family: $font-knockout;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  margin: 1.1em auto 0.5em auto;
+  letter-spacing: .075em;
 }
 
 .info-secondary {
-    font-family: $font-book;
-    text-align: left;
-    margin: 2em;
+  font-family: $font-book;
+  text-align: left;
+  margin: 2em;
 
-    @include sb-media (37.563em) {
-        width: 32em;
-        margin: 0 auto;
-        padding: 1em 0;
-        text-align: left;
-        line-height: 1.5em;
-    }
+  @include sb-media (37.563em) {
+    width: 32em;
+    margin: 0 auto;
+    padding: 1em 0;
+    text-align: left;
+    line-height: 1.5em;
+  }
 }

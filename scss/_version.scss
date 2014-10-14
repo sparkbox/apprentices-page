@@ -13,147 +13,147 @@ $number-color: #FFF;
 // -------------------------------------------------------------------- //
 
 section {
-    width: 100%;
-    margin: 0 auto 1em auto;
+  width: 100%;
+  margin: 0 auto 1em auto;
 }
 
 .version-heading {
-    font-family: $font-knockout;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.3em;
-    text-transform: uppercase;
-    margin: 0 auto;
-    letter-spacing: .075em;
-    display: block;
-    padding: 1em 0 1em;
+  font-family: $font-knockout;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  letter-spacing: .075em;
+  display: block;
+  padding: 1em 0 1em;
 }
 
 .version-number {
-    color: $number-color;
-    font-family: $font-knockout-fat;
-    font-weight: 400;
-    font-size: 3em;
-    font-style: normal;
-    display: block;
-    margin: -0.3em auto -0.5em;
+  color: $number-color;
+  font-family: $font-knockout-fat;
+  font-weight: 400;
+  font-size: 3em;
+  font-style: normal;
+  display: block;
+  margin: -0.3em auto -0.5em;
 
-    @include sb-media (21.375em) {
-        font-size: 4em;
-    }
+  @include sb-media (21.375em) {
+    font-size: 4em;
+  }
 
-    @include sb-media (37.563em) {
-        font-size: 6em;
-    }
+  @include sb-media (37.563em) {
+    font-size: 6em;
+  }
 
-    @include sb-media (52.570em) {
-        font-size: 9em;
-    }
+  @include sb-media (52.570em) {
+    font-size: 9em;
+  }
 }
 
 .version-current {
-    font-family: $font-bold-italic;
-    font-weight: normal;
-    font-size: 2.2em;
-    margin-top: -1.85em;
-    text-align: center;
-    letter-spacing: 0.05em;
+  font-family: $font-bold-italic;
+  font-weight: normal;
+  font-size: 2.2em;
+  margin-top: -1.85em;
+  text-align: center;
+  letter-spacing: 0.05em;
 
-    @include sb-media (37.563em) {
-        margin-top:-1.75em;
-    }
+  @include sb-media (37.563em) {
+    margin-top:-1.75em;
+  }
 
-    @include sb-media (52.570em) {
-        font-size: 4.2em;
-        margin-top: -1.4em;
-    }
+  @include sb-media (52.570em) {
+    font-size: 4.2em;
+    margin-top: -1.4em;
+  }
 }
 
 .version--container {
-    max-width: 65em;
-    margin: 0 auto;
+  max-width: 65em;
+  margin: 0 auto;
 }
 
 .version-profile--image-wrapper:after {
-    content: "";
-    height: 3px;
-    background-color: #FFF;
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-    margin-top: -0.4em;
+  content: "";
+  height: 3px;
+  background-color: #FFF;
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  margin-top: -0.4em;
 }
 
 .version-profile--image {
-    height: 250px;
-    width: 250px;
+  height: 250px;
+  width: 250px;
 }
 
 .version-profile--name {
-    font-family: $font-knockout-fat;
-    font-weight: 400;
-    font-size: 2em;
-    padding-top: 0.4em;
-    position: relative;
-    margin: 0;
+  font-family: $font-knockout-fat;
+  font-weight: 400;
+  font-size: 2em;
+  padding-top: 0.4em;
+  position: relative;
+  margin: 0;
 }
 
 .version-project--heading {
-    font-family: $font-book;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    padding: 3em 0 1em 0;
+  font-family: $font-book;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 3em 0 1em 0;
 }
 
 .version-project--titles {
-    font-family: $font-knockout;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.7em;
-    text-decoration: underline;
-    text-transform: uppercase;
-    color: #000;
-    line-height: 1em;
-    padding: 0.5em 0 1em 0;
-    margin: 0;
-    letter-spacing: .03em;
+  font-family: $font-knockout;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.7em;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 1em;
+  padding: 0.5em 0 1em 0;
+  margin: 0;
+  letter-spacing: .03em;
 
-    @include sb-media (37.563em) {
-        font-size: 3em;
-    }
+  @include sb-media (37.563em) {
+    font-size: 3em;
+  }
 }
 
 .version-profile--info {
-    font-family: $font-bold-italic;
-    font-size: 1em;
-    margin: 1em 0 .5em 0;
+  font-family: $font-bold-italic;
+  font-size: 1em;
+  margin: 1em 0 .5em 0;
 
-    @include sb-media (37.563em) {
-        width: 100%;
-    }
+  @include sb-media (37.563em) {
+    width: 100%;
+  }
 }
 
 .version-3 {
-    background-color: $yellow;
+  background-color: $yellow;
 }
 
 .version-2 {
-    background-color: $orange;
+  background-color: $orange;
 }
 
 .version-1 {
-    background-color: $blue;
-    padding-bottom: 1em;
+  background-color: $blue;
+  padding-bottom: 1em;
 }
 
 .version-profile {
-    display:inline-block;
-    vertical-align: top;
-    width: 100%;
-    margin-top: 3em;
+  display:inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin-top: 3em;
 
-    @include sb-media (52.570em) {
-        width: 33%;
-    }
+  @include sb-media (52.570em) {
+    width: 33%;
+  }
 }
