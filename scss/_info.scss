@@ -48,6 +48,7 @@
 
 .dates {
   @extend .info-header;
+  text-transform: none;
   font-size: 1.1em;
   color: #50b7c8;
 }
