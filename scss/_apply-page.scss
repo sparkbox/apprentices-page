@@ -5,12 +5,12 @@ $font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
 // -------------------------------------------------------------------- //
 
 .logo-special {
-  width: 8%;
-  margin-top: -4.06%;
+  width: 15%;
+  margin-top: -7%;
+  max-width: 7.4375em;
 
-  @include sb-media (37.563em) {
-    width: 6%;
-    margin-top: -3.06%;
+  @include sb-media (50.75em) {
+    margin-top: -3.9em;
   }
 }
 
