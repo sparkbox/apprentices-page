@@ -10,21 +10,21 @@ $apprentice-radius: 6px;
 // -------------------------------------------------------------------- //
 
 .button {
-    background-color: $button;
-    color: $button-text;
-    font-family: $font-bold-italic;
-    text-decoration: none;
-    padding: 1.2em 2.1em;
-    display: block;
-    width: 40%;
-    margin: 2.500em auto;
+  background-color: $button;
+  color: $button-text;
+  font-family: $font-bold-italic;
+  text-decoration: none;
+  padding: 1.2em 2.1em;
+  display: block;
+  width: 40%;
+  margin: 2.500em auto;
 
-    @include sb-media(21.375em) {
-        width: 10em;
-    }
+  @include sb-media(21.375em) {
+    width: 10em;
+  }
 }
 
 .button:hover {
-    color: $button-hover-text;
-    background-color: $button-hover;
+  color: $button-hover-text;
+  background-color: $button-hover;
 }

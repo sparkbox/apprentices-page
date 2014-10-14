@@ -8,22 +8,22 @@ $circle-color-hover: #000;
 // -------------------------------------------------------------------- //
 
 .version-profile--social-links-list {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .version-profile--social-links-item {
-    display: inline-block;
-    margin: 0.8em 0.3em;
+  display: inline-block;
+  margin: 0.8em 0.3em;
 }
 
 .version-profile--social-links-item i {
-    color: $icon-color;
-    background-color: $circle-color;
-    border-radius: 50%;
-    text-decoration: none;
+  color: $icon-color;
+  background-color: $circle-color;
+  border-radius: 50%;
+  text-decoration: none;
 }
 
 .version-profile--social-links-item i:hover {
-    color: $icon-color-hover;
-    background-color: $circle-color-hover;
+  color: $icon-color-hover;
+  background-color: $circle-color-hover;
 }
