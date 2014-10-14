@@ -1,13 +1,4 @@
-// variables //
-
-$font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
-$button: #000;
-$button-hover: #747474;
-$button-text: #FFF;
-$button-hover-text: #000;
-$apprentice-radius: 6px;
-
-// -------------------------------------------------------------------- //
+@import 'general-variables';
 
 .button {
   background-color: $button;
@@ -27,4 +18,8 @@ $apprentice-radius: 6px;
 .button:hover {
   color: $button-hover-text;
   background-color: $button-hover;
+}
+
+.button_sm {
+
 }
