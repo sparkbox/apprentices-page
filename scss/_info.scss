@@ -1,10 +1,4 @@
-// variables //
-
-$font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
-$font-book: "Bodoni W01 Book 709611", "Times New Roman";
-$font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
-
-// -------------------------------------------------------------------- //
+@import 'general-variables';
 
 .info-primary {
   font-family: $font-bold-italic;
@@ -32,12 +26,28 @@ $font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
   font-family: $font-book;
   text-align: left;
   margin: 2em;
+  font-size: 1.4em;
 
-  @include sb-media (37.563em) {
+  @include sb-media (47.5em) {
     width: 32em;
     margin: 0 auto;
     padding: 1em 0;
     text-align: left;
     line-height: 1.5em;
   }
+}
+
+.timeline {
+  font-size: 1em;
+  padding-bottom: 0.8em;
+
+  .dates {
+    font-family: $font-book;
+  }
+}
+
+.dates {
+  @extend .info-header;
+  font-size: 1.1em;
+  color: #50b7c8;
 }
