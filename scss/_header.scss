@@ -18,12 +18,10 @@ $black: #000;
 .logo {
   width: 3.094em;
   margin: 1em;
-  @include sb-media (31.563em) {
-    width: 4.734em;
-  }
+  max-width: 6em;
 
-  @include sb-media (37.563em) {
-    width: 8em;
+  @include sb-media (50em) {
+    width: 7%;
   }
 }
 
@@ -37,38 +35,22 @@ $black: #000;
   margin: 0.2em auto;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-// 342px //
-@include sb-media (21.375em) {
-  font-size:4.3em;
-}
-// 486px //
-@include sb-media (30.375em) {
-  font-size: 5.3em;
-}
-// 505px //
-@include sb-media (31.563em) {
-  font-size: 5.3em;
-}
-// 601px //
-@include sb-media (37.563em) {
-  font-size: 7.3em;
-}
-// 828px //
-@include sb-media (51.750em) {
-  font-size: 10.8em;
-}
-// 844px //
-@include sb-media (52.570em) {
-  font-size: 10.8em;
-}
-// 1124px //
-@include sb-media (70.260em) {
-  font-size: 12.8em;
-}
-// 1334px //
-@include sb-media (83.750em) {
-  font-size: 14.9em;
-}
+  // 342px //
+  @include sb-media (21.375em) {
+    font-size: 4.3em;
+  }
+  // 486px //
+  @include sb-media (30.375em) {
+    font-size: 5.3em;
+  }
+  // 601px //
+  @include sb-media (37.563em) {
+    font-size: 7.3em;
+  }
+  // 828px //
+  @include sb-media (51.750em) {
+    font-size: 10.8em;
+  }
 }
 
 .slogan {
