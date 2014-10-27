@@ -15,13 +15,25 @@ $black: #000;
   margin-bottom: -.15em;
 }
 
-.logo {
-  width: 3.094em;
+.sparkbox-logo {
+  background-image: url("../img/sbx_logo_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
   margin: 1em;
   max-width: 6em;
+  display: block;
+  margin: 0 auto;
 
-  @include sb-media (50em) {
-    width: 7%;
+  @include sb-media (30.375em) {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  @include sb-media(51.750em) {
+    width: 6em;
+    height: 6em;
   }
 }
 
