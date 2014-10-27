@@ -4,13 +4,18 @@ $font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
 
 // -------------------------------------------------------------------- //
 
-.logo-special {
-  width: 15%;
-  margin-top: -7%;
-  max-width: 7.4375em;
+.apply-logo {
+  @extend .sparkbox-logo;
+  margin-top: -1.2em;
 
-  @include sb-media (50.75em) {
-    margin-top: -3.9em;
+  @include sb-media(30.375em){
+    margin-top: -1.7em;
+  }
+
+  @include sb-media (37.563em) {
+    margin-top: -3em;
+    width: 6em;
+    height: 6em;
   }
 }
 
