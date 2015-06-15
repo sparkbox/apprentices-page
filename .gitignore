@@ -16,3 +16,4 @@ reports/*
 data/config.yml
 validation-status.json
 validation-report.json
+.divshot-cache/

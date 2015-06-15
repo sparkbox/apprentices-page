@@ -1,0 +1,5 @@
+{
+  "name": "apprentices-page",
+  "root": "./dist",
+  "clean_urls": true
+}
