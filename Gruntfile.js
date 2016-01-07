@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   grunt.loadTasks("grunt");
   grunt.registerTask("compile", ["sass", "copy", "grunticon"])
   grunt.registerTask("dev", ["compile", "connect", "watch"])
-  grunt.registerTask("buildProduction", ["compile", "validation"]);
+  grunt.registerTask("buildProduction", ["compile"]);
   // Default task
   return grunt.registerTask("default", "dev")
 };
