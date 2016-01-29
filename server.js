@@ -3,7 +3,7 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static('dist'));
+app.use(express.static('dist', { extensions: ['html'] }));
 
 var server = app.listen(app.get('port'), () => {
   var host = server.address().address;
