@@ -70,19 +70,19 @@ section {
 }
 
 .version--container {
-  max-width: 65em;
+  max-width: 85em;
   margin: 0 auto;
 }
 
 .version-profile--image-wrapper:after {
   content: "";
-  height: 3px;
-  background-color: #FFF;
+  height: .2em;
+  background-color: rgba(255, 255, 255, .2);;
   width: 100%;
   display: block;
   position: absolute;
   left: 0;
-  margin-top: -0.4em;
+  margin-top: -0.3em;
 }
 
 .version-profile--image {
@@ -141,6 +141,10 @@ section {
       width: 34%;
       padding-right: 0;
     }
+    @include sb-media(82.50em) {
+      width: 24.5%;
+    }
+
   }
 }
 
