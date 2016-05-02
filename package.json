@@ -23,6 +23,7 @@
     "grunt-html-validation": "^0.1.18"
   },
   "devDependencies": {
-    "connect-livereload": "^0.4.0"
+    "connect-livereload": "^0.4.0",
+    "grunt": "^0.4.5"
   }
 }

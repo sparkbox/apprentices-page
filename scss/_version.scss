@@ -134,6 +134,16 @@ section {
   }
 }
 
+.version-5 {
+  background-color: $purple;
+  .version-profile {
+    @include sb-media (52.570em) {
+      width: 34%;
+      padding-right: 0;
+    }
+  }
+}
+
 .version-4 {
   background-color: $green;
 }
