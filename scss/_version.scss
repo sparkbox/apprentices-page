@@ -135,7 +135,6 @@ section {
 }
 
 .version-5 {
-  background-color: $purple;
   .version-profile {
     @include sb-media (52.570em) {
       width: 34%;
@@ -155,11 +154,11 @@ section {
   background-color: $yellow;
 }
 
-.version-2 {
+.version-2, .version-6 {
   background-color: $orange;
 }
 
-.version-1 {
+.version-1, .version-5 {
   background-color: $blue;
   padding-bottom: 1em;
 }
