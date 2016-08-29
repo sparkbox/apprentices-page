@@ -20,3 +20,6 @@ PLATFORMS
 DEPENDENCIES
   compass
   mina
+
+BUNDLED WITH
+   1.12.5
