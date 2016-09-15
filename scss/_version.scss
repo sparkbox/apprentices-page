@@ -160,7 +160,10 @@ section {
 
 .version-1, .version-5 {
   background-color: $blue;
-  padding-bottom: 1em;
+}
+
+.version-1, .version-6 {
+  padding-bottom: 2em;
 }
 
 .version-profile {
