@@ -26,14 +26,19 @@
   font-family: $font-book;
   text-align: left;
   margin: 2em;
-  font-size: 1.4em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+
+  @include sb-media (37.563em) {
+    font-size: 1.3em;
+  }
 
   @include sb-media (47.5em) {
-    width: 32em;
+    max-width: 32em;
     margin: 0 auto;
-    padding: 1em 0;
+    padding: 1em 2em;
     text-align: left;
-    line-height: 1.5em;
+    font-size: 1.4em;
   }
 }
 

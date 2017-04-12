@@ -1,0 +1,42 @@
+.learn {
+  margin: 0 auto;
+
+  @include sb-media(60em) {
+    display: flex;
+  }
+}
+
+.learn--dev,
+.learn--fed {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 2em 0;
+
+  @include sb-media(60em) {
+    flex: 1;
+    padding: 4em 0;
+  }
+}
+
+.learn--dev {
+  background-color: #f1f1f1;
+}
+
+.learn--fed {
+  background-color: #e8e8e8;
+}
+
+.learn--header {
+  font-family: $font-knockout;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  margin: 1.1em auto 0.5em auto;
+  letter-spacing: .075em;
+}
+
+.learn--text {
+  text-align: center;
+}

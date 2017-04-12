@@ -1,7 +1,9 @@
 @import 'reset';
 @import 'mixins';
+@import 'general-variables';
 @import 'header';
 @import 'info';
+@import "learn";
 @import 'button';
 @import 'version';
 @import 'social';
@@ -10,4 +12,3 @@
 @import 'fonts';
 @import 'icons';
 @import 'utility';
-@import 'general-variables';
