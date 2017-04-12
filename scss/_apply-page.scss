@@ -23,14 +23,24 @@ $font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
   font-family: $font-knockout;
   font-weight: 400;
   font-style: normal;
-  font-size: 4.3em;
-  line-height: 80%;
+  font-size: 3em;
+  line-height: 1;
   text-align: center;
   margin: 0.500em auto;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  width: 90%;
+  max-width: 60rem;
+
+  @include sb-media (30.375em) {
+    font-size: 4em;
+  }
 
   @include sb-media (37.563em) {
-    font-size: 7.3em;
+    font-size: 5em;
+  }
+
+  @include sb-media (51.750em) {
+    font-size: 6em;
   }
 }
