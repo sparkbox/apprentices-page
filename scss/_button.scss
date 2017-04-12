@@ -9,6 +9,7 @@
   display: block;
   width: 40%;
   margin: 2.500em auto;
+  transition: all 350ms cubic-bezier(.74,0,0,.99);
 
   @include sb-media(21.375em) {
     width: 10em;
@@ -18,8 +19,4 @@
 .button:hover {
   color: $button-hover-text;
   background-color: $button-hover;
-}
-
-.button_sm {
-
 }
