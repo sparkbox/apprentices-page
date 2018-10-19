@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"We're bad people\"",
-    "postinstall": "grunt buildProduction"
+    "postinstall": "grunt buildProduction",
+    "dev": "grunt"
   },
   "dependencies": {
     "express": "^4.13.3",
