@@ -8,11 +8,11 @@ $font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
   @extend .sparkbox-logo;
   margin-top: -1.2em;
 
-  @include sb-media(30.375em){
+  @include sb-media($bp-sm){
     margin-top: -1.7em;
   }
 
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     margin-top: -3em;
     width: 6em;
     height: 6em;
@@ -32,15 +32,15 @@ $font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
   width: 90%;
   max-width: 60rem;
 
-  @include sb-media (30.375em) {
+  @include sb-media ($bp-sm) {
     font-size: 4em;
   }
 
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     font-size: 5em;
   }
 
-  @include sb-media (51.750em) {
+  @include sb-media ($bp-lg) {
     font-size: 6em;
   }
 }

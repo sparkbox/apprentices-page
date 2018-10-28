@@ -1,8 +1,6 @@
-@import 'general-variables';
-
 .button {
-  background-color: $button;
-  color: $button-text;
+  background-color: $c-black;
+  color: $c-white;
   font-family: $font-bold-italic;
   text-decoration: none;
   padding: 1.2em 2.1em;
@@ -11,12 +9,12 @@
   margin: 2.500em auto;
   transition: all 350ms cubic-bezier(.74,0,0,.99);
 
-  @include sb-media(21.375em) {
+  @include sb-media($bp-xs) {
     width: 10em;
   }
 }
 
 .button:hover {
-  color: $button-hover-text;
-  background-color: $button-hover;
+  color: $c-black;
+  background-color: $c-gray;
 }

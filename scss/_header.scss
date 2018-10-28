@@ -1,18 +1,9 @@
-// variables //
-
-$font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
-$font-book: "Bodoni W01 Book 709611", "Times New Roman";
-$green: #CDF5DC;
-$black: #000;
-
-// -------------------------------------------------------------------- //
-
 .page-header {
-  background-color: $green;
+  background-color: $c-green;
   width: 100%;
   height: 100%;
   padding: 3em 0;
-  margin-bottom: -.15em;
+  margin-bottom: -0.15em;
 }
 
 .sparkbox-logo {
@@ -26,12 +17,12 @@ $black: #000;
   display: block;
   margin: 0 auto;
 
-  @include sb-media (30.375em) {
+  @include sb-media ($bp-sm) {
     width: 3.5em;
     height: 3.5em;
   }
 
-  @include sb-media(51.750em) {
+  @include sb-media($bp-lg) {
     width: 6em;
     height: 6em;
   }
@@ -48,19 +39,19 @@ $black: #000;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   // 342px //
-  @include sb-media (21.375em) {
+  @include sb-media ($bp-xs) {
     font-size: 4.3em;
   }
   // 486px //
-  @include sb-media (30.375em) {
+  @include sb-media ($bp-sm) {
     font-size: 5.3em;
   }
   // 601px //
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     font-size: 7.3em;
   }
   // 828px //
-  @include sb-media (51.750em) {
+  @include sb-media ($bp-lg) {
     font-size: 10.8em;
   }
 }
@@ -83,14 +74,14 @@ $black: #000;
 .hr:before {
   width: 5%;
   height: 1px;
-  background: $black;
+  background: $c-black;
   position: absolute;
   top: 4.5em;
   left: 50%;
   margin-left:-3%;
   content: "";
 
-  @include sb-media (21.375em) {
+  @include sb-media ($bp-xs) {
     width: 3%;
     top: 3.5em;
     position: absolute;

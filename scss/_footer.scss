@@ -5,7 +5,7 @@ $font-book: "Bodoni W01 Book 709611", "Times New Roman";
 // -------------------------------------------------------------------- //
 
 footer a:hover {
-  color: #000;
+  color: $c-black;
 }
 
 footer p {
@@ -21,7 +21,7 @@ footer p {
   width: 10%;
   margin: 4em 1em 1em;
 
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     width: 3em;
   }
 }

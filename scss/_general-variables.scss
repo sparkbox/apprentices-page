@@ -5,12 +5,10 @@ $font-book: "Bodoni W01 Book 709611", "Times New Roman";
 $font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
 $font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
 
+
 //Buttons
-$button: #000;
-$button-hover: #bbb;
-$button-text: #FFF;
-$button-hover-text: #000;
 $apprentice-radius: 6px;
+
 
 // Colors
 $blue: #C7E1E9;
@@ -18,4 +16,19 @@ $green: #CCFFCC ;
 $orange: #FAC8A1;
 $yellow: #F8F0B4;
 $purple: #B5B1D1;
-$number-color: #FFF;
+
+$c-green: #CDF5DC;
+$c-blue: #50b7c8;
+$c-black: #000000;
+$c-white: #FFFFFF;
+$c-off-white: #F1F1F1;
+$c-light-gray: #E8E8E8;
+$c-gray: #BBBBBB;
+
+
+// Breakpoints
+$bp-xs: 21.375em;
+$bp-sm: 30.375em;
+$bp-md: 37.563em;
+$bp-lg: 51.750em;
+$bp-xl: 52.570em;

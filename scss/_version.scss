@@ -1,17 +1,3 @@
-// variables //
-
-$font-knockout: "Knockout 26 A", "Knockout 26 B", "Arial","Sans-Serif";
-$font-knockout-fat: "Knockout 94 A", "Knockout 94 B", "Arial", "Sans-Serif";
-$font-book: "Bodoni W01 Book 709611", "Times New Roman";
-$font-bold: "Bodoni W01 Bold 709602", "Times New Roman";
-$font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
-$blue: #C7E1E9;
-$orange: #FAC8A1;
-$yellow: #F8F0B4;
-$number-color: #FFF;
-
-// -------------------------------------------------------------------- //
-
 section {
   width: 100%;
   margin: 0 auto 1em auto;
@@ -24,13 +10,13 @@ section {
   font-size: 2.3em;
   text-transform: uppercase;
   margin: 0 auto;
-  letter-spacing: .075em;
+  letter-spacing: 0.075em;
   display: block;
   padding: 1em 0 1em;
 }
 
 .version-number {
-  color: $number-color;
+  color: $c-white;
   font-family: $font-knockout-fat;
   font-weight: 400;
   font-size: 3em;
@@ -38,15 +24,15 @@ section {
   display: block;
   margin: -0.3em auto -0.5em;
 
-  @include sb-media (21.375em) {
+  @include sb-media ($bp-xs) {
     font-size: 4em;
   }
 
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     font-size: 6em;
   }
 
-  @include sb-media (52.570em) {
+  @include sb-media ($bp-xl) {
     font-size: 9em;
   }
 }
@@ -59,11 +45,11 @@ section {
   text-align: center;
   letter-spacing: 0.05em;
 
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     margin-top:-1.75em;
   }
 
-  @include sb-media (52.570em) {
+  @include sb-media ($bp-xl) {
     font-size: 4.2em;
     margin-top: -1.4em;
   }
@@ -76,7 +62,7 @@ section {
 
 .version-profile--image-wrapper:after {
   content: "";
-  height: .2em;
+  height: 0.2em;
   background-color: rgba(255, 255, 255, .2);;
   width: 100%;
   display: block;
@@ -113,13 +99,13 @@ section {
   font-size: 2.7em;
   text-decoration: underline;
   text-transform: uppercase;
-  color: #000;
+  color: $c-black;
   line-height: 1em;
   padding: 0.5em 0 1em 0;
   margin: 0;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
 
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     font-size: 3em;
   }
 }
@@ -129,14 +115,14 @@ section {
   font-size: 1em;
   margin: 1em 0 .5em 0;
 
-  @include sb-media (37.563em) {
+  @include sb-media ($bp-md) {
     width: 100%;
   }
 }
 
 .version-5 {
   .version-profile {
-    @include sb-media (52.570em) {
+    @include sb-media ($bp-xl) {
       width: 34%;
       padding-right: 0;
     }
@@ -173,7 +159,7 @@ section {
   width: 100%;
   margin-top: 3em;
 
-  @include sb-media (52.570em) {
+  @include sb-media ($bp-xl) {
     width: 33%;
   }
 }
