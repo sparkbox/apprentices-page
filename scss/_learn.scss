@@ -22,11 +22,23 @@
 }
 
 .learn--dev {
-  background-color: #f1f1f1;
+  background-color: rgb(226, 246, 234);
+  transition: all 0.5s ease;
+}
+
+.learn--dev:hover{
+  background-color: rgb(246, 255, 249);
+
 }
 
 .learn--fed {
-  background-color: #e8e8e8;
+  background-color: rgb(201, 218, 207);
+  transition: all 0.5s ease;
+}
+
+.learn--fed:hover{
+  background-color: rgb(189, 204, 194);
+
 }
 
 .learn--header {

@@ -10,6 +10,8 @@
   width: 40%;
   margin: 2.500em auto;
   transition: all 350ms cubic-bezier(.74,0,0,.99);
+  border-radius:5%;
+  box-shadow: 2px 3px 2px rgb(112, 133, 136);
 
   @include sb-media(21.375em) {
     width: 10em;
@@ -17,6 +19,7 @@
 }
 
 .button:hover {
+  transform: scale(0.9);
   color: $button-hover-text;
   background-color: $button-hover;
 }

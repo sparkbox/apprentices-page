@@ -7,7 +7,7 @@
   margin: 2em 2em;
 
   @include sb-media (37.563em) {
-    width: 25em;
+    width: 50em;
     margin: 2em auto;
   }
 }
@@ -16,9 +16,9 @@
   font-family: $font-knockout;
   font-weight: 400;
   font-style: normal;
-  font-size: 2.3em;
+  font-size: 3.5em;
   text-transform: uppercase;
-  margin: 1.1em auto 0.5em auto;
+  margin: 0.1em auto 0.1em auto;
   letter-spacing: .075em;
 }
 

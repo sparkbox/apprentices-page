@@ -7,9 +7,9 @@ $font-bold-italic: "Bodoni W01 Bold Italic 709608", "Times New Roman";
 
 //Buttons
 $button: #000;
-$button-hover: #bbb;
+$button-hover: rgba(0, 0, 0, 0.787);
 $button-text: #FFF;
-$button-hover-text: #000;
+$button-hover-text: #FFF;
 $apprentice-radius: 6px;
 
 // Colors
@@ -19,3 +19,4 @@ $orange: #FAC8A1;
 $yellow: #F8F0B4;
 $purple: #B5B1D1;
 $number-color: #FFF;
+
