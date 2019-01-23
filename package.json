@@ -12,6 +12,7 @@
     "dev": "grunt"
   },
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "^4.13.3",
     "express-enforces-ssl": "^1.1.0",
     "grunt-contrib-compass": "^1.0.4",

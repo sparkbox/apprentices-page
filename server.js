@@ -1,6 +1,7 @@
 var express = require('express');
 var enforceSSL = require('express-enforces-ssl');
 var app = express();
+require('dotenv').config();
 
 app.set('port', (process.env.PORT || 5000));
 
