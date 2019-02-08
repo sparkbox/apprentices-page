@@ -1,20 +1,19 @@
 var express = require('express');
+var https = require('https');
+var fs = require('fs');
 var enforceSSL = require('express-enforces-ssl');
 var app = express();
 require('dotenv').config();
-
-app.set('port', (process.env.PORT || 5000));
-
-app.use(express.static('dist', { extensions: ['html'] }));
 
 if (process.env.ENFORCE_SSL) {
   app.enable('trust proxy');
   app.use(enforceSSL());
 }
 
-var server = app.listen(app.get('port'), () => {
-  var host = server.address().address;
-  var port = server.address().port;
+var options = {};
 
-  console.log('Listening at http://%s:%s', host, port);
-});
+app.use(express.static('dist', { extensions: ['html'] }));
+
+var server = https.createServer(options, app);
+
+server.listen(process.env.PORT || 8443);
