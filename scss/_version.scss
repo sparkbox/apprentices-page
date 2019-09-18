@@ -151,11 +151,11 @@ section {
   background-color: $green;
 }
 
-.version-3, .version-7 {
+.version-3, .version-7, .version-11 {
   background-color: $yellow;
 }
 
-.version-2, .version-6 {
+.version-2, .version-6, .version-10 {
   background-color: $orange;
 }
 
@@ -163,7 +163,7 @@ section {
   background-color: $blue;
 }
 
-.version-1, .version-6, .version-9 {
+.version-1, .version-6, .version-9, .version-10, .version-11 {
   padding-bottom: 2em;
 }
 
